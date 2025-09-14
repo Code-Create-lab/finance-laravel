@@ -181,11 +181,10 @@
 
     <!-- start section -->
 
-    <section class="big-section overflow-visible cover-background sm-background-image-none"
-        style="background-image:url('images/demo-finance-bg-01.jpg');">
+    <section class="big-section overflow-visible cover-background sm-background-image-none">
+        {{-- style="background-image:url('images/demo-finance-bg-01.jpg');" --}}
 
         <div class="container">
-
             <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 justify-content-center overlap-section z-index-1 overlap-section-three-fourth"
                 data-anime='{ "el": "childs", "willchange": "transform", "perspective": [1200,1200], "translateY": [0, 0], "scale": [1.1, 1], "rotateX": [30, 0], "opacity": [0,1], "duration": 1000, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
 
@@ -285,6 +284,169 @@
             </div>
 
             <!-- start row -->
+            <div class="row align-items-center mt-10" id="about">
+
+                <!-- Image column -->
+                <div class="col-lg-5 col-md-6 mb-4 mb-md-0">
+                    <img src="images/demo-finance-bg-01.jpg" alt="About Us" class="img-fluid rounded-3">
+                </div>
+
+                <!-- Text column -->
+                <div class="col-lg-7 col-md-6">
+                    <h1 class="alt-font fw-600 ls-minus-2px text-dark-gray mb-3">About Us</h1>
+
+                    <p class="lh-30">
+                        Vistara.Finance (Loan Agency) by Umesh Grover help you compare Financial Products like General
+                        Insurance, Life Insurance, Secure Loan, Health Insurance.
+                        To enable and sensible comparison, we have tied up with most of the Financial Institution disbursing
+                        Loans and selling Life Insurance and Health Insurance in India.
+                        We are coming with our new plans in which you can compare all the plan of Life, Health, General
+                        based on multiple features. Our motto is to provide you the best plan as per your requirement.
+                        Our Company is one step platform for comparing All Financial Products.
+                        In Life Insurance we have
+                        Child Plans, Term Insurance Plans, Pension Plans, Retirement Plans, and Investment Plans in which
+                        Both Endowment and Ulip are there for this we have tied with all the 23 companies of Life Insurance.
+                        In Health Insurance we have
+                        Critical Illness plans, Medical Insurance Plans, Dengue Cover Policy, Cancer Policy, Heart product
+                        and many more
+                        In Secure Loans we are dealing with most popular Govt Bank, Private Banks and NBFC.
+                        In General Insurance we have all the cash less policies for 2,4 vehicle and also polices for
+                        commercial vehicle.
+                        Our Team dealing with all these products from last 10 year on retails basis. But now we have the
+                        best team and our service is the best services so that day by day we are adding client in our
+                        portfolio. We are dealing in all over the India for these products.
+
+
+                    </p>
+
+                    {{-- <ul class="list-unstyled lh-30">
+                        <li><i class="fa-solid fa-check text-base-color me-2"></i> Life Insurance (Child Plans, Term
+                            Insurance, Pension, Retirement & Investment)</li>
+                        <li><i class="fa-solid fa-check text-base-color me-2"></i> Health Insurance (Critical Illness,
+                            Medical, Cancer, Heart & more)</li>
+                        <li><i class="fa-solid fa-check text-base-color me-2"></i> Secure Loans (Govt Banks, Private Banks,
+                            NBFCs)</li>
+                        <li><i class="fa-solid fa-check text-base-color me-2"></i> General Insurance (Cashless policies for
+                            vehicles & commercial use)</li>
+                    </ul> --}}
+                </div>
+
+            </div>
+            <!-- end row -->
+
+        </div>
+
+    </section>
+
+
+    <!-- end section -->
+
+    <!-- start section -->
+
+    <section class="big-section overflow-visible cover-background sm-background-image-none"
+        style="background-image:url('images/demo-finance-bg-01.jpg');">
+
+        <div class="container">
+
+            {{-- <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 justify-content-center overlap-section z-index-1 overlap-section-three-fourth"
+                data-anime='{ "el": "childs", "willchange": "transform", "perspective": [1200,1200], "translateY": [0, 0], "scale": [1.1, 1], "rotateX": [30, 0], "opacity": [0,1], "duration": 1000, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
+
+                <!-- start features box item -->
+
+                <div class="col icon-with-text-style-04 transition-inner-all md-mb-30px">
+
+                    <div
+                        class="feature-box bg-white h-100 justify-content-start p-17 lg-p-15 box-shadow-quadruple-large box-shadow-quadruple-large-hover border-radius-5px">
+
+                        <div
+                            class="feature-box-icon feature-box-icon-rounded mx-auto rounded-circle h-90px w-90px fs-24 text-dark-gray border border-2 border-color-extra-medium-gray mb-25px fw-500">
+                            01</div>
+
+                        <div class="feature-box-content">
+
+                            <span class="d-inline-block alt-font text-dark-gray fw-500 mb-5px fs-22">Vision to
+                                plan</span>
+
+                            <p class="mb-15px">Lorem ipsum simply dummy text printing typesetting.</p>
+
+                            <span class="fs-18 lh-26 text-base-color text-uppercase text-decoration-line-bottom fw-500">94%
+                                score</span>
+
+                        </div>
+
+                        <div class="feature-box-overlay bg-white border-radius-6px"></div>
+
+                    </div>
+
+                </div>
+
+                <!-- end features box item -->
+
+                <!-- start features box item -->
+
+                <div class="col icon-with-text-style-04 transition-inner-all md-mb-30px">
+
+                    <div
+                        class="feature-box bg-white h-100 justify-content-start p-17 lg-p-15 box-shadow-quadruple-large box-shadow-quadruple-large-hover border-radius-5px">
+
+                        <div
+                            class="feature-box-icon feature-box-icon-rounded mx-auto rounded-circle h-90px w-90px fs-24 text-dark-gray border border-2 border-color-extra-medium-gray mb-25px fw-500">
+                            02</div>
+
+                        <div class="feature-box-content">
+
+                            <span class="d-inline-block alt-font text-dark-gray fw-500 mb-5px fs-22">Plan to
+                                market</span>
+
+                            <p class="mb-15px">Lorem ipsum simply dummy text printing typesetting.</p>
+
+                            <span class="fs-18 lh-26 text-base-color text-uppercase text-decoration-line-bottom fw-500">96%
+                                score</span>
+
+                        </div>
+
+                        <div class="feature-box-overlay bg-white border-radius-6px"></div>
+
+                    </div>
+
+                </div>
+
+                <!-- end features box item -->
+
+                <!-- start features box item -->
+
+                <div class="col icon-with-text-style-04 transition-inner-all">
+
+                    <div
+                        class="feature-box bg-white h-100 justify-content-start p-17 lg-p-15 box-shadow-quadruple-large box-shadow-quadruple-large-hover border-radius-5px">
+
+                        <div
+                            class="feature-box-icon feature-box-icon-rounded mx-auto rounded-circle h-90px w-90px fs-24 text-dark-gray border border-2 border-color-extra-medium-gray mb-25px fw-500">
+                            03</div>
+
+                        <div class="feature-box-content">
+
+                            <span class="d-inline-block alt-font text-dark-gray fw-500 mb-5px fs-22">Market to
+                                growth</span>
+
+                            <p class="mb-15px">Lorem ipsum simply dummy text printing typesetting.</p>
+
+                            <span class="fs-18 lh-26 text-base-color text-uppercase text-decoration-line-bottom fw-500">98%
+                                score</span>
+
+                        </div>
+
+                        <div class="feature-box-overlay bg-white border-radius-6px"></div>
+
+                    </div>
+
+                </div>
+
+                <!-- end features box item -->
+
+            </div> --}}
+
+            <!-- start row -->
 
             <div class="row align-items-center mt-10">
 
@@ -365,6 +527,7 @@
 
             </div>
 
+
             <!-- end row -->
 
         </div>
@@ -375,7 +538,7 @@
 
     <!-- start section -->
 
-    <section class="bg-very-light-gray overflow-hidden">
+    <section class="bg-very-light-gray overflow-hidden" id="product">
 
         <div class="container">
 
@@ -423,15 +586,18 @@
                                             <div class="services-box-content">
 
                                                 <a href="demo-finance-expertise-details.html"
-                                                    class="d-inline-block alt-font text-dark-gray fs-22 md-fs-20 fw-500">Finance
-                                                    planning</a>
+                                                    class="d-inline-block alt-font text-dark-gray fs-22 md-fs-20 fw-500">Home
+                                                    Loan</a>
 
-                                                <p class="sm-mb-15px">Lorem ipsum consetetur adipicing elit eiusmod
-                                                    tempor incididunt.</p>
+                                                <p class="sm-mb-15px">Affordable Home Loan
+                                                    Dream it. Own it. Live it. secure your home loans with ease.
+                                                    Making Your Dream Home a Reality
+                                                    Fast and Easy Affordable
+                                                </p>
 
-                                                <a href="demo-finance-expertise-details.html"
+                                                {{-- <a href="demo-finance-expertise-details.html"
                                                     class="btn btn-extra-large thin btn-link text-base-color">Learn
-                                                    more</a>
+                                                    more</a> --}}
 
                                             </div>
 
@@ -440,7 +606,7 @@
                                         <div class="col-sm-6 services-box-img xs-h-300px">
 
                                             <div class="h-100 cover-background"
-                                                style="background-image: url(images/demo-finance-03.jpg)"></div>
+                                                style="background-image: url(images/product/HomeLoan.png)"></div>
 
                                         </div>
 
@@ -467,15 +633,16 @@
                                             <div class="services-box-content">
 
                                                 <a href="demo-finance-expertise-details.html"
-                                                    class="d-inline-block alt-font text-dark-gray fs-22 md-fs-20 fw-500">Wealth
-                                                    management</a>
+                                                    class="d-inline-block alt-font text-dark-gray fs-22 md-fs-20 fw-500">Home
+                                                    Construction Loan</a>
 
-                                                <p class="sm-mb-15px">Lorem ipsum consetetur adipicing elit eiusmod
-                                                    tempor incididunt.</p>
+                                                <p class="sm-mb-15px">Home Construction Loan
+                                                    Build your vision with the best home construction loan
+                                                </p>
 
-                                                <a href="demo-finance-expertise-details.html"
+                                                {{-- <a href="demo-finance-expertise-details.html"
                                                     class="btn btn-extra-large thin btn-link text-base-color">Learn
-                                                    more</a>
+                                                    more</a> --}}
 
                                             </div>
 
@@ -484,7 +651,7 @@
                                         <div class="col-sm-6 services-box-img xs-h-300px">
 
                                             <div class="h-100 cover-background"
-                                                style="background-image: url(images/demo-finance-04.jpg)"></div>
+                                                style="background-image: url(images/product/HomeConstruction.png)"></div>
 
                                         </div>
 
@@ -512,15 +679,17 @@
                                             <div class="services-box-content">
 
                                                 <a href="demo-finance-expertise-details.html"
-                                                    class="d-inline-block alt-font text-dark-gray fs-22 md-fs-20 fw-500">Strategic
-                                                    planning</a>
+                                                    class="d-inline-block alt-font text-dark-gray fs-22 md-fs-20 fw-500">Home
+                                                    Renovation Loan
+                                                </a>
 
-                                                <p class="sm-mb-15px">Lorem ipsum consetetur adipicing elit eiusmod
-                                                    tempor incididunt.</p>
+                                                <p class="sm-mb-15px">Home Improvement & Home Renovation Loan
+                                                    Give your space a new look – Get a home renovation loan today!
+                                                </p>
 
-                                                <a href="demo-finance-expertise-details.html"
+                                                {{-- <a href="demo-finance-expertise-details.html"
                                                     class="btn btn-extra-large thin btn-link text-base-color">Learn
-                                                    more</a>
+                                                    more</a> --}}
 
                                             </div>
 
@@ -529,7 +698,7 @@
                                         <div class="col-sm-6 services-box-img xs-h-300px">
 
                                             <div class="h-100 cover-background"
-                                                style="background-image: url(images/demo-finance-05.jpg)"></div>
+                                                style="background-image: url(images/product/HomeRenovationLoan.png)"></div>
 
                                         </div>
 
@@ -557,15 +726,24 @@
                                             <div class="services-box-content">
 
                                                 <a href="demo-finance-expertise-details.html"
-                                                    class="d-inline-block alt-font text-dark-gray fs-22 md-fs-20 fw-500">Audit
-                                                    assurance</a>
+                                                    class="d-inline-block alt-font text-dark-gray fs-22 md-fs-20 fw-500">Loan
+                                                    Against Property
+                                                </a>
 
-                                                <p class="sm-mb-15px">Lorem ipsum consetetur adipicing elit eiusmod
-                                                    tempor incididunt.</p>
+                                                <p class="sm-mb-15px">Finance your goals with a loan against residential
+                                                    property.
 
-                                                <a href="demo-finance-expertise-details.html"
+                                                    If you ever find that you need some urgent funds, then you’ll be glad to
+                                                    know that We as a DSA Connect with you to the best bank/NBFC for
+                                                    Mortgage Loans which allows you to borrow a substantial amount of money
+                                                    by mortgaging your property as collateral. Be it self-occupied or
+                                                    leased, commercial or residential, Vistara.Finance will give you finance
+                                                    against the property through Banks!
+                                                </p>
+
+                                                {{-- <a href="demo-finance-expertise-details.html"
                                                     class="btn btn-extra-large thin btn-link text-base-color">Learn
-                                                    more</a>
+                                                    more</a> --}}
 
                                             </div>
 
@@ -574,7 +752,8 @@
                                         <div class="col-sm-6 services-box-img xs-h-300px">
 
                                             <div class="h-100 cover-background"
-                                                style="background-image: url(images/demo-finance-06.jpg)"></div>
+                                                style="background-image: url(images/product/LoanAgainstProperty.webp)">
+                                            </div>
 
                                         </div>
 
@@ -602,15 +781,16 @@
                                             <div class="services-box-content">
 
                                                 <a href="demo-finance-expertise-details.html"
-                                                    class="d-inline-block alt-font text-dark-gray fs-22 md-fs-20 fw-500">Finance
-                                                    planning</a>
+                                                    class="d-inline-block alt-font text-dark-gray fs-22 md-fs-20 fw-500">Commercial
+                                                    Purchase Loan
+                                                </a>
 
-                                                <p class="sm-mb-15px">Lorem ipsum consetetur adipicing elit eiusmod
-                                                    tempor incididunt.</p>
+                                                <p class="sm-mb-15px">You will get the Commercial Loan for your Commercial
+                                                    property at very reasonable rate.</p>
 
-                                                <a href="demo-finance-expertise-details.html"
+                                                {{-- <a href="demo-finance-expertise-details.html"
                                                     class="btn btn-extra-large thin btn-link text-base-color">Learn
-                                                    more</a>
+                                                    more</a> --}}
 
                                             </div>
 
@@ -619,7 +799,63 @@
                                         <div class="col-sm-6 services-box-img xs-h-300px">
 
                                             <div class="h-100 cover-background"
-                                                style="background-image: url(images/demo-finance-03.jpg)"></div>
+                                                style="background-image: url(images/product/CommercialPurchaseLoan.png)">
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                                <!-- end slider item -->
+
+                                <!-- start slider item -->
+
+                                <div class="swiper-slide">
+
+                                    <div class="row g-0 services-box-style-02">
+
+                                        <div class="col-sm-6 services-box bg-white p-10 xxl-p-8 box-shadow-extra-large">
+
+                                            <div class="services-box-icon">
+
+                                                <i
+                                                    class="line-icon-Basket-Coins icon-extra-large text-base-color mb-25px"></i>
+
+                                            </div>
+
+                                            <div class="services-box-content">
+
+                                                <a href="demo-finance-expertise-details.html"
+                                                    class="d-inline-block alt-font text-dark-gray fs-22 md-fs-20 fw-500">Medical
+                                                    insurance
+                                                </a>
+
+                                                <p class="sm-mb-15px">Due to skyrocketing inflation, medicare or medical
+                                                    costs are rising year on year. As a matter of fact, inflation in
+                                                    medicare is higher than inflation in food and other articles. Single
+                                                    major hospitalization can cost lakhs of rupees which can seriously burn
+                                                    a very big hole in one’s savings or worse, burden one with huge debt.
+                                                    Health Insurance plans help in spreading such a risk to larger number of
+                                                    people, and hence bring the cost down per person. With health insurance,
+                                                    you are assured of a more secure future in terms of health and money
+                                                    both. This makes health insurance critical for individuals, especially
+                                                    if they are responsible for the financial well-being of the family.</p>
+
+                                                {{-- <a href="demo-finance-expertise-details.html"
+                                                    class="btn btn-extra-large thin btn-link text-base-color">Learn
+                                                    more</a> --}}
+
+                                            </div>
+
+                                        </div>
+
+                                        <div class="col-sm-6 services-box-img xs-h-300px">
+
+                                            <div class="h-100 cover-background"
+                                                style="background-image: url(images/product/Medicalinsurance.png)">
+                                            </div>
 
                                         </div>
 
@@ -646,15 +882,18 @@
                                             <div class="services-box-content">
 
                                                 <a href="demo-finance-expertise-details.html"
-                                                    class="d-inline-block alt-font text-dark-gray fs-22 md-fs-20 fw-500">Wealth
-                                                    management</a>
+                                                    class="d-inline-block alt-font text-dark-gray fs-22 md-fs-20 fw-500">Life insurance</a>
 
-                                                <p class="sm-mb-15px">Lorem ipsum consetetur adipicing elit eiusmod
-                                                    tempor incididunt.</p>
+                                                <p class="sm-mb-15px">We always want the best for our family but life is
+                                                    full of uncertainties and There is a big ‘IF’ in ‘LIFE’ itself. An
+                                                    essential part of financial planning is to create provisions for your
+                                                    family and loved ones following your death. Life insurance can ensure
+                                                    financial security to those who mean the most to you, such as your
+                                                    spouse, children and dependent parents.</p>
 
-                                                <a href="demo-finance-expertise-details.html"
+                                                {{-- <a href="demo-finance-expertise-details.html"
                                                     class="btn btn-extra-large thin btn-link text-base-color">Learn
-                                                    more</a>
+                                                    more</a> --}}
 
                                             </div>
 
@@ -663,7 +902,7 @@
                                         <div class="col-sm-6 services-box-img xs-h-300px">
 
                                             <div class="h-100 cover-background"
-                                                style="background-image: url(images/demo-finance-04.jpg)"></div>
+                                                style="background-image: url(images/product/Lifeinsurance.png)"></div>
 
                                         </div>
 
@@ -1273,6 +1512,39 @@
         </div>
 
     </section>
+
+    <!-- Contact Us Section -->
+    <section class="py-5 bg-light" id="contactUs">
+        <div class="container">
+            <div class="row justify-content-center text-center">
+                <div class="col-lg-8">
+                    <h2 class="fw-bold text-dark mb-4">Contact Us</h2>
+                    <p class="text-muted">Get in touch with us anytime.</p>
+
+                    <ul class="list-unstyled mt-4">
+                        <li class="mb-3">
+                            <i class="fa-solid fa-location-dot text-primary me-2 text-base-color"></i>
+                            <span>210, Gali Number 3, Madanpuri,
+                                Sector 8, Gurugram, Haryana 122001
+                            </span>
+                        </li>
+                        <a
+                            href="https://api.whatsapp.com/send/?phone=%2B919289094469&text=Hi+Friend&type=phone_number&app_absent=0">
+                            <li class="mb-3">
+                                <i class="fa-solid fa-phone text-primary me-2 text-base-color"></i>
+                                <span>+91 98765 43210</span>
+                            </li>
+                        </a>
+                        <li class="mb-3">
+                            <i class="text-base-color fa-solid fa-envelope text-primary me-2 "></i>
+                            <span>info@yourdomain.com</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
 
     <!-- end section -->
 @endsection
