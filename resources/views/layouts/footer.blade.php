@@ -2,7 +2,7 @@
 
     <div class="container">
 
-        <div class="row justify-content-center mb-5 xs-mb-20px">
+        {{-- <div class="row justify-content-center mb-5 xs-mb-20px">
 
             <div class="col-md-12 col-sm-10 text-center">
 
@@ -12,7 +12,7 @@
 
             </div>
 
-        </div>
+        </div> --}}
 
         <div class="row justify-content-center">
 
@@ -42,13 +42,13 @@
 
                 <ul>
 
-                    <li><a href="demo-finance-about.html">About company</a></li>
+                    <li><a href="demo-finance-about.html">Privacy Policy</a></li>
 
-                    <li><a href="demo-finance-expertise.html">Company expertise</a></li>
+                    <li><a href="demo-finance-expertise.html">Terms & Conditions</a></li>
 
-                    <li><a href="demo-finance-team.html">Creative people</a></li>
+                    {{-- <li><a href="demo-finance-team.html">Creative people</a></li>
 
-                    <li><a href="demo-finance-pricing.html">Pricing plans</a></li>
+                    <li><a href="demo-finance-pricing.html">Pricing plans</a></li> --}}
 
                 </ul>
 
@@ -60,7 +60,7 @@
 
             <div class="col-6 col-xl-2 col-lg-3 col-md-4 order-2 order-lg-3">
 
-                <span class="alt-font fw-500 fs-20 d-block text-dark-gray mb-10px">Customer</span>
+                {{-- <span class="alt-font fw-500 fs-20 d-block text-dark-gray mb-10px">Customer</span>
 
                 <ul>
 
@@ -72,7 +72,7 @@
 
                     <li><a href="demo-finance-contact.html">Contact us</a></li>
 
-                </ul>
+                </ul> --}}
 
             </div>
 
@@ -88,7 +88,7 @@
                 <p class="mb-30px md-mb-20px sm-mb-15px">Subscribe our newsletter to get the latest news and
                     updates.</p>
 
-                <div class="d-inline-block w-100 newsletter-style-02 position-relative">
+                {{-- <div class="d-inline-block w-100 newsletter-style-02 position-relative">
 
                     <form action="email-templates/subscribe-newsletter.php" method="post"
                         class="position-relative w-100">
@@ -107,10 +107,101 @@
 
                     </form>
 
-                </div>
+                </div> --}}
 
             </div>
 
+            <p style="display: none">Auto Loan Delhi NCR
+                Balance Transfer Loan Delhi NCR
+                Best home loan consultant in Delhi
+                Best home loan consultant in Faridabad
+                Best home loan consultant in Gurgaon
+                Best home loan consultant in Gurugram
+                Best home loan consultant in Haryana
+                Best home loan consultant in Noida
+                Best Home Loan in India Delhi NCR
+                Bike Loan Delhi NCR
+                Business Loan Delhi NCR
+                Car Loan Delhi NCR
+                Car Loan EMI Delhi NCR
+                Collateral Delhi NCR
+                Credit Delhi NCR
+                credit cards Delhi NCR
+                credit score / credit scoring Delhi NCR
+                Debt Delhi NCR
+                Debt Consolidation Loan Delhi NCR
+                Education Loan Delhi NCR
+                Education Loan EMI Delhi NCR
+                Emergency Loan Delhi NCR
+                EMI (Equated Monthly Installment) Delhi NCR
+                Finance Delhi NCR
+                Finance Commission Delhi NCR
+                finance Gurgaon gurugram Delhi ncr Delhi NCR
+                Fintech Loan Delhi NCR
+                Gold Loan Delhi NCR
+                Higher Education Loan Delhi NCR
+                Home Finance Delhi NCR
+                Home Loan Delhi NCR
+                Home Loan Delhi NCR
+                Home loan agents near me Delhi NCR
+                Home Loan Balance Transfer Delhi NCR
+                Home Loan Calculator Delhi NCR
+                Home loan documents required Delhi NCR
+                Home Loan Eligibility Delhi NCR
+                Home Loan Eligibility Delhi NCR
+                Home loan eligibility calculator Delhi NCR
+                Home Loan EMI Calculator Delhi NCR
+                Home Loan EMI Calculator Delhi NCR
+                Home loan for salaried employees Delhi NCR
+                Home loan for self-employed Delhi NCR
+                Home Loan Interest Rate Delhi NCR
+                Home Loan Interest Rate Delhi NCR
+                Home loan interest rates today Delhi NCR
+                Home loan office near me Delhi NCR
+                Home loan with low CIBIL score Delhi NCR
+                Home Loan Without Collateral Delhi NCR
+                Housing Loan Delhi NCR
+                Housing Loan Delhi NCR
+                Instant Loan Delhi NCR
+                Interest Rate Delhi NCR
+                interest rates Delhi NCR
+                Lending Delhi NCR
+                Loan Delhi NCR
+                Loan Against Property Delhi NCR
+                Loan Tenure Delhi NCR
+                Low Interest Personal Loan Delhi NCR
+                Lowest home loan rates in India Delhi NCR
+                Machinery Loan Delhi NCR
+                Microfinance Delhi NCR
+                Mortgage Delhi NCR
+                mortgage calculators Delhi NCR
+                Mortgage Loan Delhi NCR
+                Mortgage Loan Delhi NCR
+                MSME Finance Delhi NCR
+                Online Loan Delhi NCR
+                Personal Loan Delhi NCR
+                personal loans Delhi ncr Delhi NCR
+                Property Loan Delhi NCR
+                Quick Loan Delhi NCR
+                SBI home loan / HDFC home loan / ICICI home loan Delhi NCR
+                SME Loan Delhi NCR
+                Startup Loan Delhi NCR
+                stock market Delhi NCR
+                Student Loan Delhi NCR
+                student loans Delhi NCR
+                Study Abroad Loan Delhi NCR
+                Unsecured Business Loan Delhi NCR
+                Used Car Loan Delhi NCR
+                Vehicle Finance Delhi NCR
+                Working Capital Loan Delhi NCR
+                Home Loan Delhi NCR
+                Loan Against Property Delhi NCR
+                Home Construction Loan Delhi NCR
+                Home Renovation Loan Delhi NCR
+                Commercial Purchase Loan Delhi NCR
+                Medical insurance Delhi NCR
+                Life insurance Delhi NCR
+            </p>
             <!-- end footer column -->
 
         </div>

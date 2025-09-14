@@ -2,6 +2,22 @@
 @section('content')
     <!-- start banner slider -->
 
+    <style>
+        .swiper {
+            width: 100%;
+            height: 300px;
+            /* Adjust height */
+        }
+
+        .swiper-slide img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            /* Use contain to avoid cropping */
+            display: block;
+        }
+    </style>
+
     <section class="p-0 bg-dark-gray">
 
         <div class="swiper full-screen md-h-600px sm-h-500px ipad-top-space-margin swiper-light-pagination swiper-pagination-style-3 magic-cursor drag-cursor"
@@ -288,7 +304,7 @@
 
                 <!-- Image column -->
                 <div class="col-lg-5 col-md-6 mb-4 mb-md-0">
-                    <img src="images/demo-finance-bg-01.jpg" alt="About Us" class="img-fluid rounded-3">
+                    <img src="images/aboutUs.png" alt="About Us" class="img-fluid rounded-3">
                 </div>
 
                 <!-- Text column -->
@@ -560,11 +576,10 @@
 
                 <div class="col-12 position-relative">
 
-                    <div class="outside-box-right-50 md-outside-box-right-70 sm-outside-box-right-0"
-                        data-anime='{ "translateX": [100, 0], "opacity": [0,1], "duration": 800, "delay": 100, "staggervalue": 250, "easing": "easeOutQuad" }'>
+                    <div class="outside-box-right-50 md-outside-box-right-70 sm-outside-box-right-0" {{-- data-anime='{ "translateX": [100, 0], "opacity": [0,1], "duration": 800, "delay": 100, "staggervalue": 250, "easing": "easeOutQuad" }' --}}>
 
                         <div class="swiper magic-cursor ps-30px pe-30px sm-ps-0 sm-pe-0"
-                            data-slider-options='{ "slidesPerView": 1, "spaceBetween": 35, "loop": true, "autoplay": { "delay": 3000, "disableOnInteraction": false },  "pagination": { "el": ".slider-four-slide-pagination-1", "clickable": true, "dynamicBullets": false }, "keyboard": { "enabled": true, "onlyInViewport": true }, "breakpoints": { "1200": { "slidesPerView": 3 }, "992": { "slidesPerView": 2, "spaceBetween": 50 }, "768": { "slidesPerView": 2, "spaceBetween": 40 }, "320": { "slidesPerView": 1 } }, "effect": "slide" }'>
+                            data-slider-options='{ "slidesPerView": 1, "spaceBetween": 35, "loop": true, "autoplay": { "delay": 300000, "disableOnInteraction": false },  "pagination": { "el": ".slider-four-slide-pagination-1", "clickable": true, "dynamicBullets": false }, "keyboard": { "enabled": true, "onlyInViewport": true }, "breakpoints": { "1200": { "slidesPerView": 3 }, "992": { "slidesPerView": 2, "spaceBetween": 50 }, "768": { "slidesPerView": 2, "spaceBetween": 40 }, "320": { "slidesPerView": 1 } }, "effect": "slide" }'>
 
                             <div class="swiper-wrapper pt-30px pb-30px">
 
@@ -730,15 +745,10 @@
                                                     Against Property
                                                 </a>
 
-                                                <p class="sm-mb-15px">Finance your goals with a loan against residential
-                                                    property.
-
-                                                    If you ever find that you need some urgent funds, then you’ll be glad to
-                                                    know that We as a DSA Connect with you to the best bank/NBFC for
-                                                    Mortgage Loans which allows you to borrow a substantial amount of money
-                                                    by mortgaging your property as collateral. Be it self-occupied or
-                                                    leased, commercial or residential, Vistara.Finance will give you finance
-                                                    against the property through Banks!
+                                                <p class="sm-mb-15px">If you ever find that you need some urgent funds,
+                                                    then you’ll be glad to know that Vistara.Finance Mortgage Loan allows
+                                                    you to borrow a substantial amount of money by mortgaging your
+                                                    property as collateral.
                                                 </p>
 
                                                 {{-- <a href="demo-finance-expertise-details.html"
@@ -834,14 +844,9 @@
 
                                                 <p class="sm-mb-15px">Due to skyrocketing inflation, medicare or medical
                                                     costs are rising year on year. As a matter of fact, inflation in
-                                                    medicare is higher than inflation in food and other articles. Single
-                                                    major hospitalization can cost lakhs of rupees which can seriously burn
-                                                    a very big hole in one’s savings or worse, burden one with huge debt.
-                                                    Health Insurance plans help in spreading such a risk to larger number of
-                                                    people, and hence bring the cost down per person. With health insurance,
-                                                    you are assured of a more secure future in terms of health and money
-                                                    both. This makes health insurance critical for individuals, especially
-                                                    if they are responsible for the financial well-being of the family.</p>
+                                                    medicare is higher than inflation in food and other articles. This makes
+                                                    health insurance critical for individuals, especially if they are
+                                                    responsible for the financial well-being of the family.</p>
 
                                                 {{-- <a href="demo-finance-expertise-details.html"
                                                     class="btn btn-extra-large thin btn-link text-base-color">Learn
@@ -889,7 +894,7 @@
                                                     essential part of financial planning is to create provisions for your
                                                     family and loved ones following your death. Life insurance can ensure
                                                     financial security to those who mean the most to you, such as your
-                                                    spouse, children and dependent parents.</p>
+                                                    spouse, children and dependent parents.</p>
 
                                                 {{-- <a href="demo-finance-expertise-details.html"
                                                     class="btn btn-extra-large thin btn-link text-base-color">Learn
@@ -936,7 +941,7 @@
 
     <!-- start section -->
 
-    <section class="big-section">
+    {{-- <section class="big-section">
 
         <div class="container">
 
@@ -1009,13 +1014,13 @@
 
         </div>
 
-    </section>
+    </section> --}}
 
     <!-- end section -->
 
     <!-- start section -->
 
-    <section class="bg-very-light-gray overflow-hidden">
+    {{-- <section class="bg-very-light-gray overflow-hidden">
 
         <div class="container-fluid">
 
@@ -1323,9 +1328,65 @@
 
         </div>
 
-    </section>
+    </section> --}}
 
     <!-- end section -->
+
+
+
+    <section class="bg-very-light-gray overflow-hidden" id="product">
+
+        <div class="container">
+
+            <div class="row justify-content-center mb-2">
+
+                <div class="col-lg-7 text-center"
+                    data-anime='{ "el": "childs", "translateY": [50, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 200, "easing": "easeOutQuad" }'>
+
+                    <span class="fs-17 d-inline-block fw-500 text-uppercase text-base-color ls-1px">Gallery</span>
+
+                    <h1 class="alt-font text-dark-gray fw-600 ls-minus-1px">Our Gallery</h1>
+
+                </div>
+
+            </div>
+
+            <div class="row">
+
+                <div class="col-12 position-relative">
+
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            @for ($i = 0; $i <= 17; $i++)
+                                <div class="swiper-slide"><img src="images/gallery/{{ $i }}.jpg"
+                                        width="200px" alt="About Us 1" />
+                                </div>
+                            @endfor
+                            {{-- <div class="swiper-slide"><img src="images/aboutUs.png" width="200px" alt="About Us 2" />
+                            </div>
+                            <div class="swiper-slide"><img src="images/aboutUs.png" width="200px" alt="About Us 3" />
+                            </div>
+                            <div class="swiper-slide"><img src="images/aboutUs.png" width="200px" alt="About Us 4" />
+                            </div>
+                            <div class="swiper-slide"><img src="images/aboutUs.png" width="200px" alt="About Us 5" />
+                            </div>
+                            <div class="swiper-slide"><img src="images/aboutUs.png" width="200px" alt="About Us 6" />
+                            </div> --}}
+                        </div>
+
+                        <!-- Navigation buttons -->
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
 
     <!-- start section -->
 
@@ -1532,13 +1593,13 @@
                             href="https://api.whatsapp.com/send/?phone=%2B919289094469&text=Hi+Friend&type=phone_number&app_absent=0">
                             <li class="mb-3">
                                 <i class="fa-solid fa-phone text-primary me-2 text-base-color"></i>
-                                <span>+91 98765 43210</span>
+                                <span>+91 9990 144 69</span>
                             </li>
                         </a>
-                        <li class="mb-3">
+                        {{-- <li class="mb-3">
                             <i class="text-base-color fa-solid fa-envelope text-primary me-2 "></i>
-                            <span>info@yourdomain.com</span>
-                        </li>
+                            <span>info@</span>
+                        </li> --}}
                     </ul>
                 </div>
             </div>

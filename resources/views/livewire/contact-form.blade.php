@@ -1,133 +1,75 @@
 <div>
-    <form action="email-templates/contact-form.php" method="post">
-
+    <form wire:submit.prevent="submit">
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
-                    <div class="position-relative form-group mb-20px">
-
-                        <span class="form-icon"><i class="bi bi-emoji-smile"></i></span>
-
-                        <input type="text" name="name" class="form-control required"
-                            placeholder="Enter your name*" />
-
-                    </div>
+                <div class="col-md-6 mb-3">
+                    <input type="text" wire:model="name" class="form-control" placeholder="Enter your name*">
+                    @error('name')
+                        <small class="text-danger">{{ $message }}</small>
+                    @enderror
                 </div>
-                <div class="col-md-6">
-                    {{-- <div class="position-relative form-group mb-20px">
 
-                        <span class="form-icon"><i class="bi bi-envelope"></i></span>
-
-                        <input type="email" name="email" class="form-control required"
-                            placeholder="Enter your email*" />
-
-                    </div> --}}
-                    <div class="position-relative form-group mb-20px">
-
-                        <span class="form-icon"><i class="bi bi-telephone-outbound"></i></span>
-
-                        <input type="tel" name="phone" class="form-control" placeholder="Enter your phone" />
-
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="position-relative form-group mb-20px">
-
-                        <span class="form-icon"><i class="bi bi-telephone-outbound"></i></span>
-
-                        <input type="text" name="city" class="form-control" placeholder="Enter your City" />
-
-                    </div>
-
-                </div>
-                <div class="col-md-6">
-                    <div class="position-relative form-group mb-20px">
-
-                        <span class="form-icon"><i class="bi bi-telephone-outbound"></i></span>
-
-                        <input type="text" name="state" class="form-control" placeholder="Enter your State" />
-
-                    </div>
+                <div class="col-md-6 mb-3">
+                    <input type="tel" wire:model="phone" class="form-control" placeholder="Enter your phone">
+                    @error('phone')
+                        <small class="text-danger">{{ $message }}</small>
+                    @enderror
                 </div>
             </div>
 
             <div class="row">
-                <div class="col-md-6">
-                    <div class="position-relative form-group mb-20px">
-
-                        <span class="form-icon"><i class="bi bi-telephone-outbound"></i></span>
-
-                        <input type="number" name="loan_amount" class="form-control" placeholder="Enter Loan Amount" />
-
-                    </div>
-
+                <div class="col-md-6 mb-3">
+                    <input type="text" wire:model="city" class="form-control" placeholder="Enter your City">
                 </div>
-                <div class="col-md-6">
-                    <div class="position-relative form-group mb-20px">
-
-                        <span class="form-icon"><i class="bi bi-telephone-outbound"></i></span>
-
-                        <input type="text" name="state" class="form-control" placeholder="Type of business" />
-
-                    </div>
+                <div class="col-md-6 mb-3">
+                    <input type="text" wire:model="state" class="form-control" placeholder="Enter your State">
                 </div>
             </div>
+
             <div class="row">
-                <div class="col-md-6">
-                    <div class="position-relative form-group mb-20px">
-
-                        <span class="form-icon"><i class="bi bi-telephone-outbound"></i></span>
-
-                        <select name="loan_amount" id="loan_amount"class="form-control-select">
-                            <option value="">Select Loan Category</option>
-                            <option value="0">Loan</option>
-                            <option value="0">Loan</option>
-                            <option value="0">Loan</option>
-                        </select>
-                        {{-- <input type="number" name="loan_amount" class="form-control" placeholder="Enter Loan Amount" /> --}}
-
-                    </div>
-
+                <div class="col-md-6 mb-3">
+                    <input type="number" wire:model="loan_amount" class="form-control" placeholder="Enter Loan Amount">
                 </div>
-                <div class="col-md-6">
-                    <div class="position-relative form-group mb-20px">
-
-                        <span class="form-icon"><i class="bi bi-telephone-outbound"></i></span>
-
-                        <select name="loan_amount" id="loan_amount"class="form-control-select">
-                            <option value="">Select Collateral Mortgage</option>
-                            <option value="0">Loan</option>
-                            <option value="0">Loan</option>
-                            <option value="0">Loan</option>
-                        </select>
-                        {{-- <input type="text" name="state" class="form-control" placeholder="Type of business" /> --}}
-
-                    </div>
+                <div class="col-md-6 mb-3">
+                    <input type="text" wire:model="business_type" class="form-control"
+                        placeholder="Type of business">
                 </div>
             </div>
+
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <select wire:model="loan_category" class="form-control">
+                        <option value="">Select Loan Category</option>
+                        <option value="personal">Personal Loan</option>
+                        <option value="business">Business Loan</option>
+                        <option value="home">Home Loan</option>
+                    </select>
+                </div>
+                <div class="col-md-6 mb-3">
+                    <select wire:model="collateral" class="form-control">
+                        <option value="">Select Collateral Mortgage</option>
+                        <option value="property">Property</option>
+                        <option value="gold">Gold</option>
+                        <option value="none">None</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="form-check mt-3">
+                <input type="checkbox" wire:model="terms" class="form-check-input" id="terms">
+                <label for="terms" class="form-check-label">
+                    I hereby authorize to send notifications on SMS/ RCS Messages/ Promotional/ Informational messages.
+                </label>
+                @error('terms')
+                    <small class="text-danger">{{ $message }}</small>
+                @enderror
+            </div>
+
+            <button type="submit" class="btn btn-primary w-100 mt-3">Send Message</button>
+
+            @if (session()->has('success'))
+                <div class="alert alert-success mt-3">{{ session('success') }}</div>
+            @endif
         </div>
-
-
-
-
-
-        <div class="position-relative form-group form-textarea">
-
-            <span class="form-icon"><i class="bi bi-chat-square-dots"></i></span>
-
-            <textarea placeholder="Your message" name="comment" class="form-control" rows="3"></textarea>
-
-            <input type="hidden" name="redirect" value="">
-
-            <button class="btn btn-medium btn-base-color btn-box-shadow btn-round-edge w-100 mt-20px submit"
-                type="submit">Send
-                message</button>
-
-            <div class="form-results mt-20px d-none"></div>
-
-        </div>
-
     </form>
 </div>
