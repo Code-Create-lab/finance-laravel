@@ -83,10 +83,9 @@
             <div
                 class="col-lg-3 col-md-4 col-sm-6 offset-xl-1 order-3 order-lg-4 order-md-3 order-sm-4 sm-mt-35px xs-mt-25px text-center text-sm-start">
 
-                <span class="alt-font fw-500 fs-20 d-block text-dark-gray mb-10px">Subscribe newsletter</span>
+                <span class="alt-font fw-500 fs-20 d-block text-dark-gray mb-10px">Google Rating</span>
 
-                <p class="mb-30px md-mb-20px sm-mb-15px">Subscribe our newsletter to get the latest news and
-                    updates.</p>
+                <p class="mb-30px md-mb-20px sm-mb-15px"><a href="">Click here to Rate Us</a></p>
 
                 {{-- <div class="d-inline-block w-100 newsletter-style-02 position-relative">
 
