@@ -3,6 +3,7 @@
 namespace App\Livewire;
 
 use App\Mail\ContactFormMail;
+use App\Models\ContactForm as ModelsContactForm;
 use Illuminate\Support\Facades\Mail;
 use Livewire\Component;
 
@@ -42,7 +43,7 @@ class ContactForm extends Component
         ];
 
         // ✅ Save to DB
-        ContactForm::create($formData);
+        ModelsContactForm::create($formData);
 
 
         Mail::to('snhlrj8@gmail.com')->send(new ContactFormMail($formData));
