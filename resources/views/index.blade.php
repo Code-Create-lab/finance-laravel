@@ -747,9 +747,8 @@
                                                 </a>
 
                                                 <p class="sm-mb-15px">If you ever find that you need some urgent funds,
-                                                    then you’ll be glad to know that Vistara.Finance Mortgage Loan allows
-                                                    you to borrow a substantial amount of money by mortgaging your
-                                                    property as collateral.
+                                                    then Vistara.Finance Mortgage Loan allows you to borrow a substantial
+                                                    amount of money by mortgaging your property as collateral.
                                                 </p>
 
                                                 {{-- <a href="demo-finance-expertise-details.html"
@@ -843,11 +842,10 @@
                                                     insurance
                                                 </a>
 
-                                                <p class="sm-mb-15px">Due to skyrocketing inflation, medicare or medical
-                                                    costs are rising year on year. As a matter of fact, inflation in
-                                                    medicare is higher than inflation in food and other articles. This makes
-                                                    health insurance critical for individuals, especially if they are
-                                                    responsible for the financial well-being of the family.</p>
+                                                <p class="sm-mb-15px">As a matter of fact, inflation in medicare is higher
+                                                    than inflation in food and other articles. This makes health insurance
+                                                    critical for individuals, especially if they are responsible for the
+                                                    financial well-being of the family.</p>
 
                                                 {{-- <a href="demo-finance-expertise-details.html"
                                                     class="btn btn-extra-large thin btn-link text-base-color">Learn
@@ -890,9 +888,8 @@
                                                 <a href="demo-finance-expertise-details.html"
                                                     class="d-inline-block alt-font text-dark-gray fs-22 md-fs-20 fw-500">Life insurance</a>
 
-                                                <p class="sm-mb-15px">We always want the best for our family but life is
-                                                    full of uncertainties and There is a big ‘IF’ in ‘LIFE’ itself. An
-                                                    essential part of financial planning is to create provisions for your
+                                                <p class="sm-mb-15px">We always want the best for our family ,
+                                                    An essential part of financial planning is to create provisions for your
                                                     family and loved ones following your death. Life insurance can ensure
                                                     financial security to those who mean the most to you, such as your
                                                     spouse, children and dependent parents.</p>
