@@ -3,13 +3,13 @@
     <!-- start banner slider -->
 
     <style>
-        .swiper {
+        .mySwiper {
             width: 100%;
             height: 300px;
             /* Adjust height */
         }
 
-        .swiper-slide img {
+        .gallerySwiper img {
             width: 100%;
             height: 100%;
             object-fit: contain;
@@ -576,10 +576,11 @@
 
                 <div class="col-12 position-relative">
 
-                    <div class="outside-box-right-50 md-outside-box-right-70 sm-outside-box-right-0" {{-- data-anime='{ "translateX": [100, 0], "opacity": [0,1], "duration": 800, "delay": 100, "staggervalue": 250, "easing": "easeOutQuad" }' --}}>
+                    <div class="outside-box-right-50 md-outside-box-right-70 sm-outside-box-right-0"
+                        data-anime='{ "translateX": [100, 0], "opacity": [0,1], "duration": 800, "delay": 100, "staggervalue": 250, "easing": "easeOutQuad" }'>
 
                         <div class="swiper magic-cursor ps-30px pe-30px sm-ps-0 sm-pe-0"
-                            data-slider-options='{ "slidesPerView": 1, "spaceBetween": 35, "loop": true, "autoplay": { "delay": 300000, "disableOnInteraction": false },  "pagination": { "el": ".slider-four-slide-pagination-1", "clickable": true, "dynamicBullets": false }, "keyboard": { "enabled": true, "onlyInViewport": true }, "breakpoints": { "1200": { "slidesPerView": 3 }, "992": { "slidesPerView": 2, "spaceBetween": 50 }, "768": { "slidesPerView": 2, "spaceBetween": 40 }, "320": { "slidesPerView": 1 } }, "effect": "slide" }'>
+                            data-slider-options='{ "slidesPerView": 1, "spaceBetween": 35, "loop": true, "autoplay": { "delay": 3000, "disableOnInteraction": false },  "pagination": { "el": ".slider-four-slide-pagination-1", "clickable": true, "dynamicBullets": false }, "keyboard": { "enabled": true, "onlyInViewport": true }, "breakpoints": { "1200": { "slidesPerView": 3 }, "992": { "slidesPerView": 2, "spaceBetween": 50 }, "768": { "slidesPerView": 2, "spaceBetween": 40 }, "320": { "slidesPerView": 1 } }, "effect": "slide" }'>
 
                             <div class="swiper-wrapper pt-30px pb-30px">
 
@@ -1359,20 +1360,11 @@
                         <div class="swiper-wrapper">
                             <!-- Slides -->
                             @for ($i = 0; $i <= 17; $i++)
-                                <div class="swiper-slide"><img src="images/gallery/{{ $i }}.jpg"
+                                <div class="swiper-slide gallerySwiper"><img src="images/gallery/{{ $i }}.jpg"
                                         width="200px" alt="About Us 1" />
                                 </div>
                             @endfor
-                            {{-- <div class="swiper-slide"><img src="images/aboutUs.png" width="200px" alt="About Us 2" />
-                            </div>
-                            <div class="swiper-slide"><img src="images/aboutUs.png" width="200px" alt="About Us 3" />
-                            </div>
-                            <div class="swiper-slide"><img src="images/aboutUs.png" width="200px" alt="About Us 4" />
-                            </div>
-                            <div class="swiper-slide"><img src="images/aboutUs.png" width="200px" alt="About Us 5" />
-                            </div>
-                            <div class="swiper-slide"><img src="images/aboutUs.png" width="200px" alt="About Us 6" />
-                            </div> --}}
+
                         </div>
 
                         <!-- Navigation buttons -->
