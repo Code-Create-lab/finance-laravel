@@ -4,8 +4,8 @@
 /* font */
 @import url('https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700;800;900&display=swap');
 /* variable */
-:root {     
-    --base-color: #BC8947; 
+:root {
+    --base-color: #BC8947;
     --stromboli-green:#3E6558;
     --alt-font: 'Jost', sans-serif;
     --primary-font: 'Jost', sans-serif;
@@ -38,7 +38,7 @@ p {
 .bg-gradient-green-light-brown {
     background-image: linear-gradient(to right top, #3C7663, #5B8365, #929A68, #B8AA6A, #DEBB6D);
 }
-.bg-gradient-light-brown-transparent { 
+.bg-gradient-light-brown-transparent {
     background-image: linear-gradient(to right top, rgba(45, 41, 37, .6), rgba(188, 137, 71, .9));
 }
 /* text gradient color */
@@ -58,7 +58,7 @@ p {
     padding: 8px 20px;
 }
 header .navbar-brand img {
-    max-height: 30px;
+    max-height: 70px;
 }
 .navbar .navbar-nav .dropdown .dropdown-menu a {
     font-size: 18px;
@@ -71,7 +71,7 @@ header .navbar-brand img {
 .newsletter-style-02 .btn {
     padding: 10px 18px 9px 18px;
 }
-.newsletter-style-02 input {   
+.newsletter-style-02 input {
     padding-right: 60px;
     font-size: 18px;
 }

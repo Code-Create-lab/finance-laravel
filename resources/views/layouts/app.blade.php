@@ -13,6 +13,14 @@
     <meta name="author" content="ThemeZaa">
 
     <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="description" content="Free Web tutorials">
+    <meta name="keywords"
+        content="Auto Loan Delhi NCR, Balance Transfer Loan Delhi NCR, Best home loan consultant in Delhi Delhi NCR, Best home loan consultant in Faridabad Delhi NCR, Best home loan consultant in Gurgaon Delhi NCR, Best home loan consultant in Gurugram Delhi NCR, Best home loan consultant in Haryana Delhi NCR, Best home loan consultant in Noida Delhi NCR, Best Home Loan in India Delhi NCR, Bike Loan Delhi NCR, Business Loan Delhi NCR, Car Loan Delhi NCR, Car Loan EMI Delhi NCR, Collateral Delhi NCR, Credit Delhi NCR, credit cards Delhi NCR, credit score / credit scoring Delhi NCR, Debt Delhi NCR, Debt Consolidation Loan Delhi NCR, Education Loan Delhi NCR, Education Loan EMI Delhi NCR, Emergency Loan Delhi NCR, EMI (Equated Monthly Installment) Delhi NCR, Finance Delhi NCR, Finance Commission Delhi NCR, finance Gurgaon gurugram Delhi ncr Delhi NCR, Fintech Loan Delhi NCR, Gold Loan Delhi NCR, Higher Education Loan Delhi NCR, Home Finance Delhi NCR, Home Loan Delhi NCR, Home Loan Delhi NCR, Home loan agents near me Delhi NCR, Home Loan Balance Transfer Delhi NCR, Home Loan Calculator Delhi NCR, Home loan documents required Delhi NCR, Home Loan Eligibility Delhi NCR, Home Loan Eligibility Delhi NCR, Home loan eligibility calculator Delhi NCR, Home Loan EMI Calculator Delhi NCR, Home Loan EMI Calculator Delhi NCR, Home loan for salaried employees Delhi NCR, Home loan for self-employed Delhi NCR, Home Loan Interest Rate Delhi NCR, Home Loan Interest Rate Delhi NCR, Home loan interest rates today Delhi NCR, Home loan office near me Delhi NCR, Home loan with low CIBIL score Delhi NCR, Home Loan With">
+    <meta name="author" content="John Doe">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="">
 
     <meta name="description"
         content="Elevate your online presence with Crafto - a modern, versatile, multipurpose Bootstrap 5 responsive HTML5, SCSS template using highly creative 56+ ready demos.">
@@ -98,6 +106,21 @@
     <script type="text/javascript" src="js/vendors.min.js"></script>
 
     <script type="text/javascript" src="js/main.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 4, // Show 4 images at once
+            spaceBetween: 20, // Space between slides
+            loop: true, // Infinite loop
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
 
 </body>
 

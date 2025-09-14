@@ -10,8 +10,8 @@
 
                 <a class="navbar-brand" href="demo-finance.html">
 
-                    <img src="{{ asset('images/logo.png') }}" data-at2x="images/demo-finance-logo-white@2x.png"
-                        alt="" class="default-logo">
+                    <img src="{{ asset('images/logo.png') }}" width="200px"
+                        data-at2x="images/demo-finance-logo-white@2x.png" alt="" class="default-logo">
 
                     <img src="{{ asset('images/logo.png') }}" data-at2x="images/demo-finance-logo-white@2x.png"
                         alt="" class="alt-logo">
@@ -67,15 +67,15 @@
 
                         </li> --}}
 
-                        <li class="nav-item"><a href="" class="nav-link">Product</a></li>
-                        <li class="nav-item"><a href="" class="nav-link">About</a></li>
+                        <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                        <li class="nav-item"><a href="#product" class="nav-link">Product</a></li>
 
 
                         {{-- <li class="nav-item"><a href="demo-finance-pricing.html" class="nav-link">Pricing</a></li>
 
                         <li class="nav-item"><a href="demo-finance-news.html" class="nav-link">News</a></li> --}}
 
-                        <li class="nav-item"><a href="demo-finance-contact.html" class="nav-link">Contact</a></li>
+                        <li class="nav-item"><a href="#contactUs" class="nav-link">Contact</a></li>
 
                     </ul>
 
@@ -103,7 +103,7 @@
                         <div class="col-lg-5 cover-background md-h-600px xs-h-400px"
                             style="background-image:url('images/demo-finance-form-bg.jpg');"></div>
 
-                        <div class="col-lg-7">
+                        <div class="col-lg-12">
 
                             <div class="p-15 lg-p-10 bg-white">
 
@@ -112,52 +112,7 @@
                                 <h3 class="d-inline-block alt-font fw-600 text-dark-gray mb-10 ls-minus-1px">How we
                                     can help you?</h3>
 
-                                <form action="email-templates/contact-form.php" method="post">
-
-                                    <div class="position-relative form-group mb-20px">
-
-                                        <span class="form-icon"><i class="bi bi-emoji-smile"></i></span>
-
-                                        <input type="text" name="name" class="form-control required"
-                                            placeholder="Enter your name*" />
-
-                                    </div>
-
-                                    <div class="position-relative form-group mb-20px">
-
-                                        <span class="form-icon"><i class="bi bi-envelope"></i></span>
-
-                                        <input type="email" name="email" class="form-control required"
-                                            placeholder="Enter your email*" />
-
-                                    </div>
-
-                                    <div class="position-relative form-group mb-20px">
-
-                                        <span class="form-icon"><i class="bi bi-telephone-outbound"></i></span>
-
-                                        <input type="tel" name="phone" class="form-control"
-                                            placeholder="Enter your phone" />
-
-                                    </div>
-
-                                    <div class="position-relative form-group form-textarea">
-
-                                        <span class="form-icon"><i class="bi bi-chat-square-dots"></i></span>
-
-                                        <textarea placeholder="Your message" name="comment" class="form-control" rows="3"></textarea>
-
-                                        <input type="hidden" name="redirect" value="">
-
-                                        <button
-                                            class="btn btn-medium btn-base-color btn-box-shadow btn-round-edge w-100 mt-20px submit"
-                                            type="submit">Send message</button>
-
-                                        <div class="form-results mt-20px d-none"></div>
-
-                                    </div>
-
-                                </form>
+                                @livewire('contact-form')
 
                             </div>
 
