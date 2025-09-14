@@ -4,7 +4,7 @@
 
 <head>
 
-    <title>Crafto - The Multipurpose HTML5 Template</title>
+    <title>Vistara Finance/</title>
 
     <meta charset="utf-8">
 
@@ -27,7 +27,7 @@
 
     <!-- favicon icon -->
 
-    <link rel="shortcut icon" href="images/favicon.png">
+    <link rel="shortcut icon" href="{{ asset('images/logo.png') }}">
 
     <link rel="apple-touch-icon" href="images/apple-touch-icon-57x57.png">
 
