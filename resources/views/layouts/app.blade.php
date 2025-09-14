@@ -52,6 +52,7 @@
     <link rel="stylesheet" href="css/responsive.min.css" />
 
     <link rel="stylesheet" href="demos/finance/finance.css" />
+    @livewireStyles
 
 </head>
 
@@ -121,7 +122,7 @@
             },
         });
     </script>
-
+    @livewireScripts
 </body>
 
 </html>
