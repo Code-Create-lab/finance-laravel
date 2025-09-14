@@ -4,7 +4,7 @@
 
 <head>
 
-    <title>Vistara Finance/</title>
+    <title>Vistara Finance</title>
 
     <meta charset="utf-8">
 
