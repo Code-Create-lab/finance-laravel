@@ -1379,7 +1379,7 @@
 
     <!-- start section -->
 
-    <section>
+    {{-- <section>
 
         <div class="container">
 
@@ -1561,7 +1561,7 @@
 
         </div>
 
-    </section>
+    </section> --}}
 
     <!-- Contact Us Section -->
     <section class="py-5 bg-light" id="contactUs">
