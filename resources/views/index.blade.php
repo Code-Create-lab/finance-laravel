@@ -605,7 +605,7 @@
                                                     class="d-inline-block alt-font text-dark-gray fs-22 md-fs-20 fw-500">Home
                                                     Loan</a>
 
-                                                <p class="sm-mb-15px">Affordable Home Loan
+                                                <p class="sm-mb-15px truncate-text">Affordable Home Loan
                                                     Dream it. Own it. Live it. secure your home loans with ease.
                                                     Making Your Dream Home a Reality
                                                     Fast and Easy Affordable
@@ -652,7 +652,7 @@
                                                     class="d-inline-block alt-font text-dark-gray fs-22 md-fs-20 fw-500">Home
                                                     Construction Loan</a>
 
-                                                <p class="sm-mb-15px">Home Construction Loan
+                                                <p class="sm-mb-15px truncate-text">Home Construction Loan
                                                     Build your vision with the best home construction loan
                                                 </p>
 
@@ -699,7 +699,7 @@
                                                     Renovation Loan
                                                 </a>
 
-                                                <p class="sm-mb-15px">Home Improvement & Home Renovation Loan
+                                                <p class="sm-mb-15px truncate-text">Home Improvement & Home Renovation Loan
                                                     Give your space a new look – Get a home renovation loan today!
                                                 </p>
 
@@ -746,7 +746,8 @@
                                                     Against Property
                                                 </a>
 
-                                                <p class="sm-mb-15px">If you ever find that you need some urgent funds,
+                                                <p class="sm-mb-15px truncate-text">If you ever find that you need some
+                                                    urgent funds,
                                                     then Vistara.Finance Mortgage Loan allows you to borrow a substantial
                                                     amount of money by mortgaging your property as collateral.
                                                 </p>
@@ -795,7 +796,8 @@
                                                     Purchase Loan
                                                 </a>
 
-                                                <p class="sm-mb-15px">You will get the Commercial Loan for your Commercial
+                                                <p class="sm-mb-15px truncate-text">You will get the Commercial Loan for
+                                                    your Commercial
                                                     property at very reasonable rate.</p>
 
                                                 {{-- <a href="demo-finance-expertise-details.html"
@@ -842,7 +844,8 @@
                                                     insurance
                                                 </a>
 
-                                                <p class="sm-mb-15px">As a matter of fact, inflation in medicare is higher
+                                                <p class="sm-mb-15px truncate-text">As a matter of fact, inflation in
+                                                    medicare is higher
                                                     than inflation in food and other articles. This makes health insurance
                                                     critical for individuals, especially if they are responsible for the
                                                     financial well-being of the family.</p>
@@ -888,7 +891,8 @@
                                                 <a href="demo-finance-expertise-details.html"
                                                     class="d-inline-block alt-font text-dark-gray fs-22 md-fs-20 fw-500">Life insurance</a>
 
-                                                <p class="sm-mb-15px">We always want the best for our family ,
+                                                <p class="sm-mb-15px truncate-text">We always want the best for our family
+                                                    ,
                                                     An essential part of financial planning is to create provisions for your
                                                     family and loved ones following your death. Life insurance can ensure
                                                     financial security to those who mean the most to you, such as your
@@ -1595,6 +1599,30 @@
         </div>
     </section>
 
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(function() {
+            var charLimit = 100; // character limit
+            $(".truncate-text").each(function() {
+                var fullText = $(this).text().trim();
+                if (fullText.length > charLimit) {
+                    var shortText = fullText.substring(0, charLimit) + "...";
+                    // Wrap with span and add a Read more link
+                    $(this).html(
+                        '<span class="short-text">' + shortText + '</span>' +
+                        '<span class="full-text d-none">' + fullText + '</span>' +
+                        ' <a href="#" class="read-more">Read more</a>'
+                    );
+                }
+            });
 
+            $(document).on("click", ".read-more", function(e) {
+                e.preventDefault();
+                var $p = $(this).closest(".truncate-text");
+                $p.find(".short-text, .full-text").toggleClass("d-none");
+                $(this).text($(this).text() === "Read more" ? "Read less" : "Read more");
+            });
+        });
+    </script>
     <!-- end section -->
 @endsection

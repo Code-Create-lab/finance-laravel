@@ -54,6 +54,18 @@
     <link rel="stylesheet" href="demos/finance/finance.css" />
     @livewireStyles
 
+    <style>
+        .d-none {
+            display: none;
+        }
+
+        .read-more {
+            color: #007bff;
+            cursor: pointer;
+            text-decoration: underline;
+        }
+    </style>
+
 </head>
 
 <body data-mobile-nav-style="full-screen-menu" data-mobile-nav-bg-color="#bc8947" class="custom-cursor">

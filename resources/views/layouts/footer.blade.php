@@ -42,9 +42,9 @@
 
                 <ul>
 
-                    <li><a href="demo-finance-about.html">Privacy Policy</a></li>
+                    <li><a href="{{ route('privacy-policy') }}">Privacy Policy</a></li>
 
-                    <li><a href="demo-finance-expertise.html">Terms & Conditions</a></li>
+                    <li><a href="{{ route('terms-conditions') }}">Terms & Conditions</a></li>
 
                     {{-- <li><a href="demo-finance-team.html">Creative people</a></li>
 
