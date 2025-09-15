@@ -121,9 +121,9 @@
     <script type="text/javascript" src="js/main.js"></script>
     <script>
         var swiper = new Swiper(".mySwiper", {
-            slidesPerView: 4, // Show 4 images at once
-            spaceBetween: 20, // Space between slides
-            loop: true, // Infinite loop
+            slidesPerView: 4, // default for large screens
+            spaceBetween: 20,
+            loop: true,
             autoplay: {
                 delay: 2500,
                 disableOnInteraction: false,
@@ -132,6 +132,16 @@
                 nextEl: ".swiper-button-next",
                 prevEl: ".swiper-button-prev",
             },
+            breakpoints: {
+                // when window width is >= 0px (mobile)
+                0: {
+                    slidesPerView: 1
+                },
+                // when window width is >= 768px (tablet/desktop)
+                768: {
+                    slidesPerView: 4
+                }
+            }
         });
     </script>
     @livewireScripts

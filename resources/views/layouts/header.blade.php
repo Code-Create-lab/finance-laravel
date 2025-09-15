@@ -43,7 +43,7 @@
 
                     <ul class="navbar-nav alt-font">
 
-                        <li class="nav-item"><a href="demo-finance.html" class="nav-link">Home</a></li>
+                        <li class="nav-item"><a href="{{ route('home') }}" class="nav-link">Home</a></li>
 
                         {{--
                         <li class="nav-item dropdown simple-dropdown">
