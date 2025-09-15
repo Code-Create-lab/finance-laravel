@@ -85,7 +85,7 @@
 
                 <span class="alt-font fw-500 fs-20 d-block text-dark-gray mb-10px">Google Rating</span>
 
-                <p class="mb-30px md-mb-20px sm-mb-15px"><a href="">Click here to Rate Us</a></p>
+                <p class="mb-30px md-mb-20px sm-mb-15px"><a href="https://www.google.com/search?sca_esv=3c20d213f13eaa2a&sxsrf=AE3TifPtzoxYFLZUq7voZrSjueTeOqEMxQ:1757873805642&si=AMgyJEtREmoPL4P1I5IDCfuA8gybfVI2d5Uj7QMwYCZHKDZ-E--BH2BCA5v3NuB7Okdn2ZaUnMcjTrn_RJNcxH3GGHX2guiS8f6DRlb-OZZgr8BDCXXYneF7rKTlMvN9FIBBdp84ENua&q=Umesh+Grover+Reviews&sa=X&ved=2ahUKEwiV-fqd7tiPAxWDxzgGHeRyEzcQ0bkNegQILhAD&biw=1438&bih=788&dpr=2">Click here to Rate Us</a></p>
 
                 {{-- <div class="d-inline-block w-100 newsletter-style-02 position-relative">
 

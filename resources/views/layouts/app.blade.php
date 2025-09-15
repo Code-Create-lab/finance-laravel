@@ -66,9 +66,38 @@
         }
     </style>
 
+    <style>
+        .whatsapp_float {
+            position: fixed;
+            width: 60px;
+            height: 60px;
+            bottom: 20px;
+            right: 20px;
+            background-color: #25d366;
+            border-radius: 50%;
+            text-align: center;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+            z-index: 1000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .whatsapp_float img {
+            width: 35px;
+            height: 35px;
+        }
+    </style>
+
 </head>
 
 <body data-mobile-nav-style="full-screen-menu" data-mobile-nav-bg-color="#bc8947" class="custom-cursor">
+
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://api.whatsapp.com/send/?phone=%2B919289094469&text=Hi+Friend&type=phone_number&app_absent=0" class="whatsapp_float" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" width="50px">
+    </a>
 
     <!-- start cursor -->
 
@@ -99,7 +128,7 @@
 
     <!-- start scroll progress -->
 
-    <div class="scroll-progress d-none d-xxl-block">
+    {{-- <div class="scroll-progress d-none d-xxl-block">
 
         <a href="#" class="scroll-top" aria-label="scroll">
 
@@ -107,7 +136,7 @@
 
         </a>
 
-    </div>
+    </div> --}}
 
     <!-- end scroll progress -->
 

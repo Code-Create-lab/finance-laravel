@@ -312,7 +312,7 @@
                     <h1 class="alt-font fw-600 ls-minus-2px text-dark-gray mb-3">About Us</h1>
 
                     <p class="lh-30">
-                        Vistara.Finance (Loan Agency) by Umesh Grover help you compare Financial Products like General
+                       <b>Vistara.Finance</b>  (Loan Agency) by <b> Umesh Grover  </b>help you compare Financial Products like General
                         Insurance, Life Insurance, Secure Loan, Health Insurance.
                         To enable and sensible comparison, we have tied up with most of the Financial Institution disbursing
                         Loans and selling Life Insurance and Health Insurance in India.

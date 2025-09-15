@@ -11,12 +11,12 @@
                 <a class="navbar-brand" href="demo-finance.html">
 
                     <img src="{{ asset('images/logo.png') }}" width="200px"
-                        data-at2x="images/demo-finance-logo-white@2x.png" alt="" class="default-logo">
+                        data-at2x="{{ asset('images/logo.png') }}" alt="" class="default-logo">
 
-                    <img src="{{ asset('images/logo.png') }}" data-at2x="images/demo-finance-logo-white@2x.png"
+                    <img src="{{ asset('images/logo.png') }}" data-at2x="{{ asset('images/logo.png') }}"
                         alt="" class="alt-logo">
 
-                    <img src="images/demo-finance-logo-black.png" data-at2x="images/demo-finance-logo-black@2x.png"
+                    <img src="{{ asset('images/logo.png') }}" data-at2x="{{ asset('images/logo.png') }}"
                         alt="" class="mobile-logo">
 
                 </a>
