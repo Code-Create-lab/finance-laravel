@@ -529,13 +529,13 @@
 
                     <div class="d-inline-block">
 
-                        <a href="demo-finance-about.html"
+                        <a href="#about"
                             class="btn btn-large btn-dark-gray btn-box-shadow fw-400 me-35px sm-me-25px btn-round-edge">About
                             company</a>
 
-                        <a href="demo-finance-expertise.html"
+                        {{-- <a href="demo-finance-expertise.html"
                             class="btn btn-link btn-extra-large thin text-dark-gray xs-mt-15px xs-mb-15px">How we
-                            work</a>
+                            work</a> --}}
 
                     </div>
 
