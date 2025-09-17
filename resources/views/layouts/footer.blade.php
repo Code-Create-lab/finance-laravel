@@ -87,8 +87,8 @@
 
                 <p class="mb-30px md-mb-20px sm-mb-15px"><a href="https://www.google.com/search?sca_esv=3c20d213f13eaa2a&sxsrf=AE3TifPtzoxYFLZUq7voZrSjueTeOqEMxQ:1757873805642&si=AMgyJEtREmoPL4P1I5IDCfuA8gybfVI2d5Uj7QMwYCZHKDZ-E--BH2BCA5v3NuB7Okdn2ZaUnMcjTrn_RJNcxH3GGHX2guiS8f6DRlb-OZZgr8BDCXXYneF7rKTlMvN9FIBBdp84ENua&q=Umesh+Grover+Reviews&sa=X&ved=2ahUKEwiV-fqd7tiPAxWDxzgGHeRyEzcQ0bkNegQILhAD&biw=1438&bih=788&dpr=2">Click here to Rate Us</a></p>
 
-                 <a href='http://www.freevisitorcounters.com'>more on freevisitorcounters.com</a> <script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=d7aae614952d8d58f57dd09787cc2d0408798568'></script>
-<script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/1391871/t/0"></script>
+                 <script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=5d3f044c444bba1ee1272334a80cbacee0ca9766'></script>
+<script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/1391873/t/5"></script>
                 {{-- <div class="d-inline-block w-100 newsletter-style-02 position-relative">
 
                     <form action="email-templates/subscribe-newsletter.php" method="post"
