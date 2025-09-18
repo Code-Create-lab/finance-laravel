@@ -601,7 +601,7 @@
 
                                             <div class="services-box-content">
 
-                                                <a href="demo-finance-expertise-details.html"
+                                                <a 
                                                     class="d-inline-block alt-font text-dark-gray fs-22 md-fs-20 fw-500">Home
                                                     Loan</a>
 
@@ -611,7 +611,7 @@
                                                     Fast and Easy Affordable
                                                 </p>
 
-                                                {{-- <a href="demo-finance-expertise-details.html"
+                                                {{-- <a 
                                                     class="btn btn-extra-large thin btn-link text-base-color">Learn
                                                     more</a> --}}
 
@@ -648,7 +648,7 @@
 
                                             <div class="services-box-content">
 
-                                                <a href="demo-finance-expertise-details.html"
+                                                <a 
                                                     class="d-inline-block alt-font text-dark-gray fs-22 md-fs-20 fw-500">Home
                                                     Construction Loan</a>
 
@@ -656,7 +656,7 @@
                                                     Build your vision with the best home construction loan
                                                 </p>
 
-                                                {{-- <a href="demo-finance-expertise-details.html"
+                                                {{-- <a 
                                                     class="btn btn-extra-large thin btn-link text-base-color">Learn
                                                     more</a> --}}
 
@@ -694,7 +694,7 @@
 
                                             <div class="services-box-content">
 
-                                                <a href="demo-finance-expertise-details.html"
+                                                <a 
                                                     class="d-inline-block alt-font text-dark-gray fs-22 md-fs-20 fw-500">Home
                                                     Renovation Loan
                                                 </a>
@@ -703,7 +703,7 @@
                                                     Give your space a new look – Get a home renovation loan today!
                                                 </p>
 
-                                                {{-- <a href="demo-finance-expertise-details.html"
+                                                {{-- <a 
                                                     class="btn btn-extra-large thin btn-link text-base-color">Learn
                                                     more</a> --}}
 
@@ -741,7 +741,7 @@
 
                                             <div class="services-box-content">
 
-                                                <a href="demo-finance-expertise-details.html"
+                                                <a 
                                                     class="d-inline-block alt-font text-dark-gray fs-22 md-fs-20 fw-500">Loan
                                                     Against Property
                                                 </a>
@@ -752,7 +752,7 @@
                                                     amount of money by mortgaging your property as collateral.
                                                 </p>
 
-                                                {{-- <a href="demo-finance-expertise-details.html"
+                                                {{-- <a 
                                                     class="btn btn-extra-large thin btn-link text-base-color">Learn
                                                     more</a> --}}
 
@@ -791,7 +791,7 @@
 
                                             <div class="services-box-content">
 
-                                                <a href="demo-finance-expertise-details.html"
+                                                <a 
                                                     class="d-inline-block alt-font text-dark-gray fs-22 md-fs-20 fw-500">Commercial
                                                     Purchase Loan
                                                 </a>
@@ -800,7 +800,7 @@
                                                     your Commercial
                                                     property at very reasonable rate.</p>
 
-                                                {{-- <a href="demo-finance-expertise-details.html"
+                                                {{-- <a 
                                                     class="btn btn-extra-large thin btn-link text-base-color">Learn
                                                     more</a> --}}
 
@@ -839,7 +839,7 @@
 
                                             <div class="services-box-content">
 
-                                                <a href="demo-finance-expertise-details.html"
+                                                <a 
                                                     class="d-inline-block alt-font text-dark-gray fs-22 md-fs-20 fw-500">Medical
                                                     insurance
                                                 </a>
@@ -850,7 +850,7 @@
                                                     critical for individuals, especially if they are responsible for the
                                                     financial well-being of the family.</p>
 
-                                                {{-- <a href="demo-finance-expertise-details.html"
+                                                {{-- <a 
                                                     class="btn btn-extra-large thin btn-link text-base-color">Learn
                                                     more</a> --}}
 
@@ -888,7 +888,7 @@
 
                                             <div class="services-box-content">
 
-                                                <a href="demo-finance-expertise-details.html"
+                                                <a 
                                                     class="d-inline-block alt-font text-dark-gray fs-22 md-fs-20 fw-500">Life insurance</a>
 
                                                 <p class="sm-mb-15px truncate-text">We always want the best for our family
@@ -898,7 +898,7 @@
                                                     financial security to those who mean the most to you, such as your
                                                     spouse, children and dependent parents.</p>
 
-                                                {{-- <a href="demo-finance-expertise-details.html"
+                                                {{-- <a 
                                                     class="btn btn-extra-large thin btn-link text-base-color">Learn
                                                     more</a> --}}
 
