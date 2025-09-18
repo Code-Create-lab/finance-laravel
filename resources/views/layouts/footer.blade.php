@@ -21,7 +21,7 @@
             <div
                 class="col-lg-3 col-md-12 col-sm-6 order-4 order-lg-1 order-md-4 order-sm-3 md-mt-35px text-center text-sm-start text-md-center text-lg-start last-paragraph-no-margin">
 
-                <a href="demo-finance.html" class="footer-logo mb-25px sm-mb-20px d-inline-block"><img
+                <a href="{{route('home')}}l" class="footer-logo mb-25px sm-mb-20px d-inline-block"><img
                         src="{{ asset('images/logo.png') }}" data-at2x="images/demo-finance-logo-black@2x.png"
                         alt=""></a>
 
