@@ -8,7 +8,7 @@
 
             <div class="col-auto col-lg-2 me-lg-0 me-auto">
 
-                <a class="navbar-brand" href="demo-finance.html">
+                <a class="navbar-brand" href="{{route('home')}}">
 
                     <img src="{{ asset('images/logo.png') }}" width="200px"
                         data-at2x="{{ asset('images/logo.png') }}" alt="" class="default-logo">
