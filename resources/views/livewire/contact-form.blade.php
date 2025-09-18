@@ -10,7 +10,7 @@
                 </div>
 
                 <div class="col-md-6 mb-3">
-                    <input type="tel" wire:model="phone" class="form-control" placeholder="Enter your phone">
+                    <input type="tel" wire:model="phone" class="form-control" placeholder="Enter your phone*">
                     @error('phone')
                         <small class="text-danger">{{ $message }}</small>
                     @enderror

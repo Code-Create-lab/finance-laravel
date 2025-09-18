@@ -1,4 +1,4 @@
-<footer class="footer-light bg-very-light-gray">
+<footer class="footer-light bg-very-light-gray" style="background-color: #ffffff">
 
     <div class="container">
 
@@ -19,16 +19,16 @@
             <!-- start footer column -->
 
             <div
-                class="col-lg-3 col-md-12 col-sm-6 order-4 order-lg-1 order-md-4 order-sm-3 md-mt-35px text-center text-sm-start text-md-center text-lg-start last-paragraph-no-margin">
+                class="col-lg-4 col-md-12 col-sm-6 order-4 order-lg-1 order-md-4 order-sm-3 md-mt-35px text-center text-sm-start text-md-center text-lg-start last-paragraph-no-margin">
 
                 <a href="{{route('home')}}" class="footer-logo mb-25px sm-mb-20px d-inline-block"><img
-                        src="{{ asset('images/logo.png') }}" data-at2x="images/demo-finance-logo-black@2x.png"
+                        src="{{ asset('images/logo.png') }}" data-at2x="{{ asset('images/logo.png') }}"
                         alt=""></a>
 
                 <p class="mb-15px">We are trusted by more than 5000 very happy clients for finance services.</p>
 
-                <p>&COPY; Copyright 2025 <a href="{{route('home')}}" target="_blank"
-                        class="text-decoration-line-bottom text-dark-gray fw-500">Finance</a></p>
+                <p>&COPY; Copyright 2025,  <a href="{{route('home')}}" target="_blank"
+                        class="text-decoration-line-bottom text-dark-gray fw-500"> Vistara.Finance </a> <br> all rights reservedFinance</p>
 
             </div>
 
@@ -58,9 +58,9 @@
 
             <!-- start footer column -->
 
-            <div class="col-6 col-xl-2 col-lg-3 col-md-4 order-2 order-lg-3">
+            {{--  <div class="col-6 col-xl-2 col-lg-3 col-md-4 order-2 order-lg-3">
 
-                {{-- <span class="alt-font fw-500 fs-20 d-block text-dark-gray mb-10px">Customer</span>
+               <span class="alt-font fw-500 fs-20 d-block text-dark-gray mb-10px">Customer</span>
 
                 <ul>
 
@@ -72,9 +72,9 @@
 
                     <li><a href="demo-finance-contact.html">Contact us</a></li>
 
-                </ul> --}}
+                </ul> 
 
-            </div>
+            </div>--}}
 
             <!-- end footer column -->
 

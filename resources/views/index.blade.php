@@ -57,8 +57,7 @@
                                     data-fancy-text='{ "opacity": [0, 1], "translateY": [50, 0], "string": ["Giving ideas for your investments"], "duration": 500, "delay": 200, "speed": 10, "easing": "easeOutQuad" }'>
                                 </div>
 
-                                <a href=""
-                                    class="btn btn-base-color btn-box-shadow btn-large btn-round-edge"
+                                <a href="" class="btn btn-base-color btn-box-shadow btn-large btn-round-edge"
                                     data-anime='{ "opacity": [0, 1], "easing": "easeOutCubic", "delay": 800, "duration": 800 }'>Get
                                     started now</a>
 
@@ -104,10 +103,10 @@
                                     data-fancy-text='{ "opacity": [0, 1], "translateY": [50, 0], "string": ["Make investment and idea smart"], "duration": 500, "delay": 200, "speed": 10, "easing": "easeOutQuad" }'>
                                 </div>
 
-                                <a href="demo-finance-expertise.html"
+                                {{-- <a href="demo-finance-expertise.html"
                                     class="btn btn-base-color btn-box-shadow btn-large btn-round-edge"
                                     data-anime='{ "opacity": [0, 1], "easing": "easeOutCubic", "delay": 500, "duration": 800 }'>Get
-                                    started now</a>
+                                    started now</a> --}}
 
                             </div>
 
@@ -150,11 +149,11 @@
                                 <div class="alt-font fs-90 lh-80 lg-fs-80 xs-fs-65 fw-500 mb-40px ls-minus-3px sm-ls-minus-2px text-shadow-double-large"
                                     data-fancy-text='{ "opacity": [0, 1], "translateY": [50, 0], "string": ["Skilled finance expert agency"], "duration": 500, "delay": 200, "speed": 10, "easing": "easeOutQuad" }'>
                                 </div>
-
+                                {{-- 
                                 <a href="demo-finance-expertise.html"
                                     class="btn btn-base-color btn-box-shadow btn-large btn-round-edge"
                                     data-anime='{ "opacity": [0, 1], "easing": "easeOutCubic", "delay": 500, "duration": 800 }'>Get
-                                    started now</a>
+                                    started now</a> --}}
 
                             </div>
 
@@ -213,17 +212,18 @@
 
                         <div
                             class="feature-box-icon feature-box-icon-rounded mx-auto rounded-circle h-90px w-90px fs-24 text-dark-gray border border-2 border-color-extra-medium-gray mb-25px fw-500">
-                            01</div>
+                            <img src="{{ asset('images/Door_Step_Service.png') }}" alt="">
+                        </div>
 
                         <div class="feature-box-content">
 
-                            <span class="d-inline-block alt-font text-dark-gray fw-500 mb-5px fs-22">Vision to
-                                plan</span>
+                            <span class="d-inline-block alt-font text-dark-gray fw-500 mb-5px fs-22"> Door Step Service
+                            </span>
 
-                            <p class="mb-15px">Lorem ipsum simply dummy text printing typesetting.</p>
+                            <p class="mb-15px">Imagine having our dedicated team come right to your doorstep! We’re committed to making your experience smooth and hassle-free at every stage.</p>
 
-                            <span class="fs-18 lh-26 text-base-color text-uppercase text-decoration-line-bottom fw-500">94%
-                                score</span>
+                            {{-- <span class="fs-18 lh-26 text-base-color text-uppercase text-decoration-line-bottom fw-500">94%
+                                score</span> --}}
 
                         </div>
 
@@ -244,17 +244,18 @@
 
                         <div
                             class="feature-box-icon feature-box-icon-rounded mx-auto rounded-circle h-90px w-90px fs-24 text-dark-gray border border-2 border-color-extra-medium-gray mb-25px fw-500">
-                            02</div>
+                            <img src="{{ asset('images/Simple_Documentation.png') }}" alt="">
+                        </div>
 
                         <div class="feature-box-content">
 
-                            <span class="d-inline-block alt-font text-dark-gray fw-500 mb-5px fs-22">Plan to
-                                market</span>
+                            <span class="d-inline-block alt-font text-dark-gray fw-500 mb-5px fs-22">Simple Documentation
+                            </span>
 
-                            <p class="mb-15px">Lorem ipsum simply dummy text printing typesetting.</p>
-
+                            <p class="mb-15px">We’ve simplified the Vistara.Finance documentation process to make it as easy as possible. Forget the stress and focus on what truly matters to you!</p>
+{{-- 
                             <span class="fs-18 lh-26 text-base-color text-uppercase text-decoration-line-bottom fw-500">96%
-                                score</span>
+                                score</span> --}}
 
                         </div>
 
@@ -275,17 +276,18 @@
 
                         <div
                             class="feature-box-icon feature-box-icon-rounded mx-auto rounded-circle h-90px w-90px fs-24 text-dark-gray border border-2 border-color-extra-medium-gray mb-25px fw-500">
-                            03</div>
+                            <img src="{{ asset('images/Customised_Eligibility.png') }}" alt="">
+                        </div>
 
                         <div class="feature-box-content">
 
-                            <span class="d-inline-block alt-font text-dark-gray fw-500 mb-5px fs-22">Market to
-                                growth</span>
+                            <span class="d-inline-block alt-font text-dark-gray fw-500 mb-5px fs-22">Customised Eligibility
+                            </span>
 
-                            <p class="mb-15px">Lorem ipsum simply dummy text printing typesetting.</p>
+                            <p class="mb-15px">We understand that everyone’s situation is different. That’s why our eligibility criteria are tailored just for you, ensuring the perfect fit for your needs.</p>
 
-                            <span class="fs-18 lh-26 text-base-color text-uppercase text-decoration-line-bottom fw-500">98%
-                                score</span>
+                            {{-- <span class="fs-18 lh-26 text-base-color text-uppercase text-decoration-line-bottom fw-500">98%
+                                score</span> --}}
 
                         </div>
 
@@ -312,7 +314,8 @@
                     <h1 class="alt-font fw-600 ls-minus-2px text-dark-gray mb-3">About Us</h1>
 
                     <p class="lh-30">
-                       <b>Vistara.Finance</b>  (Loan Agency) by <b> Umesh Grover  </b>help you compare Financial Products like General
+                        <b>Vistara.Finance</b> (Loan Agency) by <b> Umesh Grover </b>help you compare Financial Products
+                        like General
                         Insurance, Life Insurance, Secure Loan, Health Insurance.
                         To enable and sensible comparison, we have tied up with most of the Financial Institution disbursing
                         Loans and selling Life Insurance and Health Insurance in India.
@@ -469,7 +472,8 @@
                 <div class="col-xl-6 col-lg-7 col-md-9"
                     data-anime='{ "el": "childs", "translateX": [50, 0], "opacity": [0,1], "duration": 800, "delay": 0, "staggervalue": 200, "easing": "easeOutQuad" }'>
 
-                    <h1 class="alt-font fw-600 ls-minus-2px text-dark-gray">Finance advisory services provider.</h1>
+                    <h1 class="alt-font fw-600 ls-minus-2px text-dark-gray">Why Choose vistara.finance Us?</h1>
+                    <p> Because You Deserve Better</p>
 
                     <div class="mb-7">
 
@@ -479,17 +483,18 @@
 
                             <div class="feature-box feature-box-left-icon-middle overflow-hidden">
 
-                                <div
-                                    class="feature-box-icon feature-box-icon-rounded w-50px h-50px rounded-circle border border-2 border-color-base-color me-20px">
+                                <div class="feature-box-icon feature-box-icon-rounded w-50px h-50px rounded-circle border border-2 border-color-base-color me-20px"
+                                    style="border-color: #5CA904 !important;">
 
-                                    <i class="fa-solid fa-check icon-small text-base-color"></i>
+                                    <i class="fa-solid fa-check icon-small text-base-color"
+                                        style="color: #5CA904 !important;"></i>
 
                                 </div>
 
                                 <div class="feature-box-content">
 
-                                    <span class="w-65 md-w-70 sm-w-90 xs-w-100 d-block lh-30">We are trusted by more
-                                        than 5000 very happy clients for services.</span>
+                                    <span class="w-65 md-w-70 sm-w-90 xs-w-100 d-block lh-30"
+                                        style="font-weight: bold; color: black;">SAVE WATER</span>
 
                                 </div>
 
@@ -501,21 +506,46 @@
 
                         <!-- start features box item -->
 
-                        <div class="col icon-with-text-style-08">
+                        <div class="col icon-with-text-style-08 mb-25px">
 
                             <div class="feature-box feature-box-left-icon-middle overflow-hidden">
 
-                                <div
-                                    class="feature-box-icon feature-box-icon-rounded w-50px h-50px rounded-circle border border-2 border-color-base-color me-20px">
+                                <div class="feature-box-icon feature-box-icon-rounded w-50px h-50px rounded-circle border border-2 border-color-base-color me-20px"
+                                    style="border-color: #5CA904 !important;">
 
-                                    <i class="fa-solid fa-check icon-small text-base-color"></i>
+                                    <i class="fa-solid fa-check icon-small text-base-color"
+                                        style="color: #5CA904 !important;"></i>
 
                                 </div>
 
                                 <div class="feature-box-content">
 
-                                    <span class="w-65 md-w-70 sm-w-90 xs-w-100 d-block lh-30">A business strategy means
-                                        which it sets out to achieve its desired ends.</span>
+                                    <span class="w-65 md-w-70 sm-w-90 xs-w-100 d-block lh-30"
+                                        style="font-weight: bold; color: black;">SAVE ENERGY</span>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="col icon-with-text-style-08">
+
+                            <div class="feature-box feature-box-left-icon-middle overflow-hidden">
+
+                                <div class="feature-box-icon feature-box-icon-rounded w-50px h-50px rounded-circle border border-2 border-color-base-color me-20px"
+                                    style="border-color: #5CA904 !important;">
+
+                                    <i class="fa-solid fa-check icon-small text-base-color"
+                                        style="color: #5CA904 !important;"></i>
+
+                                </div>
+
+                                <div class="feature-box-content">
+
+                                    <span class="w-65 md-w-70 sm-w-90 xs-w-100 d-block lh-30"
+                                        style="font-weight: bold; color: black;">SAVE EARTH</span>
 
                                 </div>
 
@@ -601,8 +631,7 @@
 
                                             <div class="services-box-content">
 
-                                                <a 
-                                                    class="d-inline-block alt-font text-dark-gray fs-22 md-fs-20 fw-500">Home
+                                                <a class="d-inline-block alt-font text-dark-gray fs-22 md-fs-20 fw-500">Home
                                                     Loan</a>
 
                                                 <p class="sm-mb-15px truncate-text">Affordable Home Loan
@@ -648,8 +677,7 @@
 
                                             <div class="services-box-content">
 
-                                                <a 
-                                                    class="d-inline-block alt-font text-dark-gray fs-22 md-fs-20 fw-500">Home
+                                                <a class="d-inline-block alt-font text-dark-gray fs-22 md-fs-20 fw-500">Home
                                                     Construction Loan</a>
 
                                                 <p class="sm-mb-15px truncate-text">Home Construction Loan
@@ -694,8 +722,7 @@
 
                                             <div class="services-box-content">
 
-                                                <a 
-                                                    class="d-inline-block alt-font text-dark-gray fs-22 md-fs-20 fw-500">Home
+                                                <a class="d-inline-block alt-font text-dark-gray fs-22 md-fs-20 fw-500">Home
                                                     Renovation Loan
                                                 </a>
 
@@ -741,8 +768,7 @@
 
                                             <div class="services-box-content">
 
-                                                <a 
-                                                    class="d-inline-block alt-font text-dark-gray fs-22 md-fs-20 fw-500">Loan
+                                                <a class="d-inline-block alt-font text-dark-gray fs-22 md-fs-20 fw-500">Loan
                                                     Against Property
                                                 </a>
 
@@ -791,8 +817,7 @@
 
                                             <div class="services-box-content">
 
-                                                <a 
-                                                    class="d-inline-block alt-font text-dark-gray fs-22 md-fs-20 fw-500">Commercial
+                                                <a class="d-inline-block alt-font text-dark-gray fs-22 md-fs-20 fw-500">Commercial
                                                     Purchase Loan
                                                 </a>
 
@@ -839,8 +864,7 @@
 
                                             <div class="services-box-content">
 
-                                                <a 
-                                                    class="d-inline-block alt-font text-dark-gray fs-22 md-fs-20 fw-500">Medical
+                                                <a class="d-inline-block alt-font text-dark-gray fs-22 md-fs-20 fw-500">Medical
                                                     insurance
                                                 </a>
 
@@ -888,7 +912,7 @@
 
                                             <div class="services-box-content">
 
-                                                <a 
+                                                <a
                                                     class="d-inline-block alt-font text-dark-gray fs-22 md-fs-20 fw-500">Life insurance</a>
 
                                                 <p class="sm-mb-15px truncate-text">We always want the best for our family
@@ -1586,7 +1610,7 @@
                             href="https://api.whatsapp.com/send/?phone=%2B919289094469&text=Hi+Friend&type=phone_number&app_absent=0">
                             <li class="mb-3">
                                 <i class="fa-solid fa-phone text-primary me-2 text-base-color"></i>
-                                <span>+91 9990 144 69</span>
+                                <span>+91 99900 144 69</span>
                             </li>
                         </a>
                         {{-- <li class="mb-3">

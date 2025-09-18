@@ -14,7 +14,7 @@ class ContactForm extends Component
 
     protected $rules = [
         'name' => 'required|string|min:3',
-        'phone' => 'nullable|string|max:15',
+        'phone' => 'required|max:10',
         'city' => 'nullable|string',
         'state' => 'nullable|string',
         'loan_amount' => 'nullable|numeric',
