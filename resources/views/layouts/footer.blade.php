@@ -27,7 +27,7 @@
 
                 <p class="mb-15px">We are trusted by more than 5000 very happy clients for finance services.</p>
 
-                <p>&COPY; Copyright 2025 <a href="index.html" target="_blank"
+                <p>&COPY; Copyright 2025 <a href="{{route('home')}}" target="_blank"
                         class="text-decoration-line-bottom text-dark-gray fw-500">Finance</a></p>
 
             </div>
