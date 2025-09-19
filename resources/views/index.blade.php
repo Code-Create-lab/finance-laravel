@@ -57,9 +57,9 @@
                                     data-fancy-text='{ "opacity": [0, 1], "translateY": [50, 0], "string": ["Giving ideas for your investments"], "duration": 500, "delay": 200, "speed": 10, "easing": "easeOutQuad" }'>
                                 </div>
 
-                                <a href="" class="btn btn-base-color btn-box-shadow btn-large btn-round-edge"
+                                {{-- <a href="" class="btn btn-base-color btn-box-shadow btn-large btn-round-edge"
                                     data-anime='{ "opacity": [0, 1], "easing": "easeOutCubic", "delay": 800, "duration": 800 }'>Get
-                                    started now</a>
+                                    started now</a> --}}
 
                             </div>
 
