@@ -1610,7 +1610,8 @@
                             href="https://api.whatsapp.com/send/?phone=%2B919289094469&text=Hi+Friend&type=phone_number&app_absent=0">
                             <li class="mb-3">
                                 <i class="fa-solid fa-phone text-primary me-2 text-base-color"></i>
-                                <span>+91 99900 144 69</span>
+                                <span><a href="tel:+919990014469"> +91 99900 144 69</a></span>
+                                <span><a href="tel:+919891023887">+91 98910 238 87</a> </span>
                             </li>
                         </a>
                         {{-- <li class="mb-3">
