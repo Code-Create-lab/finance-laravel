@@ -32,7 +32,7 @@ class ContactFormMail extends Mailable
     public function envelope(): Envelope
     {
         return new Envelope(
-            subject: 'Inqury for website',
+            subject: 'Inquiry for website',
         );
     }
 
