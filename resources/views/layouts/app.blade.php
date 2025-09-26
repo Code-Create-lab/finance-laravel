@@ -153,18 +153,15 @@
 
     <script>
         $(document).on('click', '.nav-item', function() {
-            // base URL where you want to go
-            var baseUrl = '/'; // e.g. /about or window.location.pathname
-            // hash to append (taken from data-hash)
+            var baseUrl = '/'; // your page
             var hash = $(this).data('hash'); // e.g. section1
-            // final URL
             var finalUrl = baseUrl + '#' + hash;
-            console.log("finalUrl",finalUrl);
-            // Navigate to that URL
-            window.location.href = finalUrl;
 
-            // If you only want to change hash without reloading:
-            // window.location.hash = hash;
+            console.log("finalUrl", finalUrl);
+
+            // Force full reload
+            window.location.href = finalUrl;
+            window.location.reload(); // <- this forces the reload
         });
         var swiper = new Swiper(".mySwiper", {
             slidesPerView: 4, // default for large screens
