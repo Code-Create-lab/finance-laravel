@@ -46,7 +46,7 @@ class ContactForm extends Component
         ModelsContactForm::create($formData);
 
 
-        Mail::to('snhlrj8@gmail.com')->send(new ContactFormMail($formData));
+        Mail::to(['umeshgrover14@gmail.com', 'pmwaniyojana@gmail.com'])->send(new ContactFormMail($formData));
         session()->flash('success', 'Form submitted successfully!');
 
         $this->reset(); // reset form fields

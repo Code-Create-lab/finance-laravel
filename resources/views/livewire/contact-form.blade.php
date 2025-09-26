@@ -37,7 +37,7 @@
             </div>
 
             <div class="row">
-                <div class="col-md-6 mb-3">
+                <div class="col-md-12 mb-3">
                     <select wire:model="loan_category" class="form-control">
                         <option value="">Select Loan Category</option>
                         <option value="personal">Personal Loan</option>
@@ -45,18 +45,19 @@
                         <option value="home">Home Loan</option>
                     </select>
                 </div>
-                <div class="col-md-6 mb-3">
+                {{-- <div class="col-md-6 mb-3">
                     <select wire:model="collateral" class="form-control">
                         <option value="">Select Collateral Mortgage</option>
                         <option value="property">Property</option>
                         <option value="gold">Gold</option>
                         <option value="none">None</option>
                     </select>
-                </div>
+                </div> --}}
             </div>
-
+ <div class="row">
+     <div class="col-md-12 mb-3">
             <div class="form-check mt-3">
-                <input type="checkbox" wire:model="terms" class="form-check-input" id="terms">
+                <input type="checkbox" wire:model="terms" class="form-check-input form-check-input small-check" id="terms">
                 <label for="terms" class="form-check-label">
                     I hereby authorize to send notifications on SMS/ RCS Messages/ Promotional/ Informational messages.
                 </label>
@@ -64,7 +65,8 @@
                     <small class="text-danger">{{ $message }}</small>
                 @enderror
             </div>
-
+            </div>
+ </div>
             <button type="submit" class="btn btn-primary w-100 mt-3">Send Message</button>
 
             @if (session()->has('success'))
