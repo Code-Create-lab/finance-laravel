@@ -67,15 +67,15 @@
 
                         </li> --}}
 
-                        <li class="nav-item"><a href="{{ route('home') }}#about" class="nav-link">About</a></li>
-                        <li class="nav-item"><a href="{{ route('home') }}#product" class="nav-link">Product</a></li>
+                        <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                        <li class="nav-item"><a href="#product" class="nav-link">Product</a></li>
 
 
                         {{-- <li class="nav-item"><a href="demo-finance-pricing.html" class="nav-link">Pricing</a></li>
 
                         <li class="nav-item"><a href="demo-finance-news.html" class="nav-link">News</a></li> --}}
 
-                        <li class="nav-item"><a href="{{ route('home') }}#contactUs" class="nav-link">Contact</a></li>
+                        <li class="nav-item"><a href="#contactUs" class="nav-link">Contact</a></li>
 
                     </ul>
 
