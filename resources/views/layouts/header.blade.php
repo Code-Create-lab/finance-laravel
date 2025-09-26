@@ -8,16 +8,16 @@
 
             <div class="col-auto col-lg-2 me-lg-0 me-auto">
 
-                <a class="navbar-brand" href="{{route('home')}}">
+                <a class="navbar-brand" href="{{ route('home') }}">
 
-                    <img src="{{ asset('images/logo.png') }}" width="200px"
-                        data-at2x="{{ asset('images/logo.png') }}" alt="" class="default-logo">
+                    <img src="{{ asset('images/logo.png') }}" width="200px" data-at2x="{{ asset('images/logo.png') }}"
+                        alt="" class="default-logo">
 
-                    <img src="{{ asset('images/logo.png') }}" data-at2x="{{ asset('images/logo.png') }}"
-                        alt="" class="alt-logo">
+                    <img src="{{ asset('images/logo.png') }}" data-at2x="{{ asset('images/logo.png') }}" alt=""
+                        class="alt-logo">
 
-                    <img src="{{ asset('images/logo.png') }}" data-at2x="{{ asset('images/logo.png') }}"
-                        alt="" class="mobile-logo">
+                    <img src="{{ asset('images/logo.png') }}" data-at2x="{{ asset('images/logo.png') }}" alt=""
+                        class="mobile-logo">
 
                 </a>
 
@@ -67,15 +67,15 @@
 
                         </li> --}}
 
-                        <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
-                        <li class="nav-item"><a href="#product" class="nav-link">Product</a></li>
+                        <li class="nav-item" data-hash="about"><a href="#about"   class="nav-link">About</a></li>
+                        <li class="nav-item" data-hash="product"><a href="#product"  class="nav-link">Product</a></li>
 
 
                         {{-- <li class="nav-item"><a href="demo-finance-pricing.html" class="nav-link">Pricing</a></li>
 
                         <li class="nav-item"><a href="demo-finance-news.html" class="nav-link">News</a></li> --}}
 
-                        <li class="nav-item"><a href="#contactUs" class="nav-link">Contact</a></li>
+                        <li class="nav-item" data-hash="contactUs"><a href="#contactUs"   class="nav-link">Contact</a></li>
 
                     </ul>
 
@@ -83,7 +83,7 @@
 
             </div>
 
-            <div class="col-auto col-lg-2 text-end d-none d-sm-flex">
+            <div class="col-auto col-lg-2 text-end  d-sm-flex">
 
                 <div class="header-icon">
 

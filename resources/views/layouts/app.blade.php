@@ -95,7 +95,8 @@
 
 
     <!-- WhatsApp Floating Button -->
-    <a href="https://api.whatsapp.com/send/?phone=%2B919289094469&text=Hi+Friend&type=phone_number&app_absent=0" class="whatsapp_float" target="_blank">
+    <a href="https://api.whatsapp.com/send/?phone=%2B919289094469&text=Hi+Friend&type=phone_number&app_absent=0"
+        class="whatsapp_float" target="_blank">
         <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" width="50px">
     </a>
 
@@ -148,7 +149,23 @@
     <script type="text/javascript" src="js/vendors.min.js"></script>
 
     <script type="text/javascript" src="js/main.js"></script>
+
+
     <script>
+        $(document).on('click', '.nav-item', function() {
+            // base URL where you want to go
+            var baseUrl = '/'; // e.g. /about or window.location.pathname
+            // hash to append (taken from data-hash)
+            var hash = $(this).data('hash'); // e.g. section1
+            // final URL
+            var finalUrl = baseUrl + '#' + hash;
+            console.log("finalUrl",finalUrl);
+            // Navigate to that URL
+            window.location.href = finalUrl;
+
+            // If you only want to change hash without reloading:
+            // window.location.hash = hash;
+        });
         var swiper = new Swiper(".mySwiper", {
             slidesPerView: 4, // default for large screens
             spaceBetween: 20,
