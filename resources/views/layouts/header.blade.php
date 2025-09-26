@@ -103,7 +103,7 @@
                         <div class="col-lg-5 cover-background md-h-600px xs-h-400px"
                             style="background-image:url('images/demo-finance-form-bg.jpg');"></div>
 
-                        <div class="col-lg-12">
+                        <div class="col-lg-7">
 
                             <div class="p-15 lg-p-10 bg-white">
 
