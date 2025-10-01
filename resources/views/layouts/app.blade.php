@@ -128,7 +128,7 @@
     <div class="row text-center">
 
         <div class="container">
-            <p>Designed by <a href=" https://bulksmsdelhincr.com/ "><b>BulkSMSDelhiNcr</b></a> </p>
+            <p>Designed by <a target="_blank" href=" https://bulksmsdelhincr.com/ "><b>BulkSMSDelhiNcr</b></a> </p>
         </div>
     </div>
     <!-- start scroll progress -->
