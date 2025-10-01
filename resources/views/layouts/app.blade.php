@@ -125,8 +125,12 @@
     @include('layouts.footer')
 
     <!-- end footer -->
+    <div class="row text-center">
 
-
+        <div class="container">
+            <p>Designed by <a href=" https://bulksmsdelhincr.com/ "><b>BulkSMSDelhiNcr</b></a> </p>
+        </div>
+    </div>
     <!-- start scroll progress -->
 
     {{-- <div class="scroll-progress d-none d-xxl-block">
@@ -186,6 +190,213 @@
                 }
             }
         });
+
+
+        // Website Content Protection Script
+        // Add this script to your HTML file before closing </body> tag
+
+        (function() {
+            'use strict';
+
+            // 1. Disable Right Click
+            document.addEventListener('contextmenu', function(e) {
+                e.preventDefault();
+                showWarning('Right click is disabled on this website');
+                return false;
+            });
+
+            // 2. Disable Text Selection
+            document.addEventListener('selectstart', function(e) {
+                e.preventDefault();
+                return false;
+            });
+
+            // 3. Disable Copy (Ctrl+C / Cmd+C)
+            document.addEventListener('copy', function(e) {
+                e.preventDefault();
+                showWarning('Copying is disabled on this website');
+                return false;
+            });
+
+            // 4. Disable Cut (Ctrl+X / Cmd+X)
+            document.addEventListener('cut', function(e) {
+                e.preventDefault();
+                return false;
+            });
+
+            // 5. Disable Paste (Optional - uncomment if needed)
+            // document.addEventListener('paste', function(e) {
+            //     e.preventDefault();
+            //     return false;
+            // });
+
+            // 6. Disable Keyboard Shortcuts
+            document.addEventListener('keydown', function(e) {
+                // F12 - Developer Tools
+                if (e.keyCode === 123) {
+                    e.preventDefault();
+                    // showWarning('Developer tools are disabled');
+                    return false;
+                }
+
+                // Ctrl+Shift+I / Cmd+Option+I - Inspect Element
+                if ((e.ctrlKey || e.metaKey) && e.shiftKey && e.keyCode === 73) {
+                    e.preventDefault();
+                    showWarning('Inspect element is disabled');
+                    return false;
+                }
+
+                // Ctrl+Shift+J / Cmd+Option+J - Console
+                if ((e.ctrlKey || e.metaKey) && e.shiftKey && e.keyCode === 74) {
+                    e.preventDefault();
+                    showWarning('Console is disabled');
+                    return false;
+                }
+
+                // Ctrl+U / Cmd+U - View Source
+                if ((e.ctrlKey || e.metaKey) && e.keyCode === 85) {
+                    e.preventDefault();
+                    showWarning('View source is disabled');
+                    return false;
+                }
+
+                // Ctrl+S / Cmd+S - Save Page
+                if ((e.ctrlKey || e.metaKey) && e.keyCode === 83) {
+                    e.preventDefault();
+                    showWarning('Saving page is disabled');
+                    return false;
+                }
+
+                // Ctrl+C / Cmd+C - Copy
+                if ((e.ctrlKey || e.metaKey) && e.keyCode === 67) {
+                    e.preventDefault();
+                    showWarning('Copying is disabled');
+                    return false;
+                }
+
+                // Ctrl+A / Cmd+A - Select All
+                if ((e.ctrlKey || e.metaKey) && e.keyCode === 65) {
+                    e.preventDefault();
+                    showWarning('Select all is disabled');
+                    return false;
+                }
+
+                // Ctrl+P / Cmd+P - Print
+                if ((e.ctrlKey || e.metaKey) && e.keyCode === 80) {
+                    e.preventDefault();
+                    showWarning('Printing is disabled');
+                    return false;
+                }
+            });
+
+            // 7. Disable Drag and Drop for Images
+            document.addEventListener('dragstart', function(e) {
+                if (e.target.tagName === 'IMG') {
+                    e.preventDefault();
+                    return false;
+                }
+            });
+
+            // 8. Detect DevTools Opening (Basic Detection)
+            let devtoolsOpen = false;
+            const threshold = 160;
+
+            setInterval(function() {
+                if (window.outerWidth - window.innerWidth > threshold ||
+                    window.outerHeight - window.innerHeight > threshold) {
+                    if (!devtoolsOpen) {
+                        devtoolsOpen = true;
+                        // showWarning('Developer tools detected! Please close them.');
+                        // Optional: Redirect or blur content
+                        // document.body.style.filter = 'blur(10px)';
+                    }
+                } else {
+                    if (devtoolsOpen) {
+                        devtoolsOpen = false;
+                        // document.body.style.filter = 'none';
+                    }
+                }
+            }, 500);
+
+            // 9. Clear Console Periodically (Optional)
+            setInterval(function() {
+                console.clear();
+            }, 2000);
+
+            // 10. Disable Image Context Menu
+            const images = document.getElementsByTagName('img');
+            for (let i = 0; i < images.length; i++) {
+                images[i].addEventListener('contextmenu', function(e) {
+                    e.preventDefault();
+                    return false;
+                });
+                // Prevent dragging
+                images[i].setAttribute('draggable', false);
+            }
+
+            // Warning Message Function
+            function showWarning(message) {
+                // Create a simple alert-style warning
+                const warning = document.createElement('div');
+                warning.textContent = message;
+                warning.style.cssText = `
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background: #ff4444;
+            color: white;
+            padding: 15px 20px;
+            border-radius: 5px;
+            z-index: 999999;
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+            animation: slideIn 0.3s ease-out;
+        `;
+
+                document.body.appendChild(warning);
+
+                setTimeout(function() {
+                    warning.style.animation = 'slideOut 0.3s ease-in';
+                    setTimeout(function() {
+                        if (warning.parentNode) {
+                            warning.parentNode.removeChild(warning);
+                        }
+                    }, 300);
+                }, 2000);
+            }
+
+            // Add CSS animations
+            const style = document.createElement('style');
+            style.textContent = `
+        @keyframes slideIn {
+            from { transform: translateX(400px); opacity: 0; }
+            to { transform: translateX(0); opacity: 1; }
+        }
+        @keyframes slideOut {
+            from { transform: translateX(0); opacity: 1; }
+            to { transform: translateX(400px); opacity: 0; }
+        }
+        * {
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+        input, textarea {
+            -webkit-user-select: text;
+            -moz-user-select: text;
+            -ms-user-select: text;
+            user-select: text;
+        }
+    `;
+            document.head.appendChild(style);
+
+            console.log('%cSTOP!', 'color: red; font-size: 60px; font-weight: bold;');
+            console.log('%cThis is a browser feature intended for developers.', 'font-size: 18px;');
+            console.log('%cIf someone told you to copy-paste something here, it is a scam.', 'font-size: 18px;');
+
+        })();
     </script>
     @livewireScripts
 </body>
